@@ -1,0 +1,1 @@
+# Pangasinense_Dictionary_Scraper
