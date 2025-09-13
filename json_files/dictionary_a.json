@@ -33,15 +33,11 @@
   },
   {
     "word": "abála",
-    "meaning": "be busy or occupied; to annoy, be a"
-  },
-  {
-    "word": "disturbance",
-    "meaning": "(man -)"
+    "meaning": "be busy or occupied; to annoy, be a disturbance (man -)"
   },
   {
     "word": "abalayán",
-    "meaning": "co-parent-in-law, i.e. the relationship holding between the parents of the bride"
+    "meaning": "co-parent-in-law, i.e. the relationship holding between the parents of the bride and those of the groom (term of address and reference)"
   },
   {
     "word": "sanaabalayán",
@@ -64,12 +60,12 @@
     "meaning": "side, proximity; to approach, go near person or object close by (on -); put beside (i-)"
   },
   {
-    "word": "kaábay",
-    "meaning": "(pl. kabkaábay)person or object close by; neighbor"
+    "word": "kaábay (pl. kabkaábay)",
+    "meaning": "person or object close by; neighbor"
   },
   {
-    "word": "sanábay",
-    "meaning": "(pl. sanáabay)relative"
+    "word": "sanábay (pl. sanáabay)",
+    "meaning": "relative"
   },
   {
     "word": "abél",
@@ -81,7 +77,7 @@
   },
   {
     "word": "abétabét",
-    "meaning": "reenactment of Christ’s meeting"
+    "meaning": "reenactment of Christ’s meeting with his mother after the resurrection"
   },
   {
     "word": "paabét",
@@ -97,7 +93,7 @@
   },
   {
     "word": "maábig",
-    "meaning": "good, fine, well, sound, healthy 2"
+    "meaning": "good, fine, well, sound, healthy"
   },
   {
     "word": "mabábig",
@@ -161,11 +157,7 @@
   },
   {
     "word": "aboróg",
-    "meaning": "rash of red spots on skin caused by"
-  },
-  {
-    "word": "allergic",
-    "meaning": "reaction to something eaten, esp. fruit"
+    "meaning": "rash of red spots on skin caused by allergic reaction to somethingn eaten, esp. fruit"
   },
   {
     "word": "abosádo",
@@ -233,11 +225,7 @@
   },
   {
     "word": "agamáng",
-    "meaning": "small shrimp; seasoning made from salted"
-  },
-  {
-    "word": "agam",
-    "meaning": "áng"
+    "meaning": "small shrimp; seasoning made from salted agamáng"
   },
   {
     "word": "agát",
@@ -253,7 +241,19 @@
   },
   {
     "word": "agél",
-    "meaning": "zeal, care, conscientiousness; take care, etc. (mañgi -) 1ágewday ágewágew, inágewágewdaily, every day 2ágewsun; be light, sunny (on -)"
+    "meaning": "zeal, care, conscientiousness; take care, etc. (mañgi -)"
+  },
+  {
+    "word": "1ágew",
+    "meaning": "day"
+  },
+  {
+    "word": "ágewágew, inágewágew",
+    "meaning": "daily, every day"
+  },
+  {
+    "word": "2ágew",
+    "meaning": "sun; be light, sunny (on -)"
   },
   {
     "word": "agéyet",
@@ -264,28 +264,28 @@
     "meaning": "infested with mosquitoes"
   },
   {
+    "word": "1agí",
+    "meaning": "younger sibling or other person of same generation"
+  },
+  {
+    "word": "2agí",
+    "meaning": "interjection of alarm: ‘alas’, ‘ouch!’"
+  },
+  {
     "word": "ágila",
     "meaning": "eagle"
   },
   {
     "word": "aginaldó",
-    "meaning": "Christmas present; to go asking for"
-  },
-  {
-    "word": "presents",
-    "meaning": "(mi -); to carol (carolers are"
-  },
-  {
-    "word": "usually",
-    "meaning": "rewarded for their efforts) (man -)"
+    "meaning": "Christmas present; to go asking for presents (mi-); to carol (carolers are usually rewarded for their efforts) (man-)"
   },
   {
     "word": "naaginaldó",
     "meaning": "proceeds from caroling"
   },
   {
-    "word": "mísa",
-    "meaning": "aginaldó = misa de gallo, g.v."
+    "word": "mísa aginaldó",
+    "meaning": "= misa de gallo, g.v."
   },
   {
     "word": "ágkit",
@@ -297,11 +297,7 @@
   },
   {
     "word": "aguánta",
-    "meaning": "fast, speedy, efficient, resourceful;"
-  },
-  {
-    "word": "become",
-    "meaning": "fast, etc. (on -)"
+    "meaning": "fast, speedy, efficient, resourceful; become fast, etc. (on-)"
   },
   {
     "word": "ágom",
@@ -328,8 +324,8 @@
     "meaning": "to carry on the head (man -)"
   },
   {
-    "word": "agÉntÉ",
-    "meaning": ",ahÉntÉ agent"
+    "word": "agÉntÉ,ahÉntÉ",
+    "meaning": "agent"
   },
   {
     "word": "áhit",
@@ -369,7 +365,7 @@
   },
   {
     "word": "ákay",
-    "meaning": "to lead by the hand, guide thus (man -)PANGASINAN DICTIONARY 4"
+    "meaning": "to lead by the hand, guide thus (man -)"
   },
   {
     "word": "akbáb",
@@ -377,11 +373,7 @@
   },
   {
     "word": "akbíbit",
-    "meaning": "have within, carry with one, have with"
-  },
-  {
-    "word": "one",
-    "meaning": "constantly"
+    "meaning": "have within, carry with one, have with one constantly"
   },
   {
     "word": "ákin",
@@ -409,11 +401,7 @@
   },
   {
     "word": "akló",
-    "meaning": "ladle, esp. paddle or wooden spoon for"
-  },
-  {
-    "word": "removing",
-    "meaning": "rice from the pot"
+    "meaning": "ladle, esp. paddle or wooden spoon for removing rice from the pot"
   },
   {
     "word": "akmón",
@@ -473,15 +461,7 @@
   },
   {
     "word": "alábat",
-    "meaning": "barricade put across lower part of"
-  },
-  {
-    "word": "doorway",
-    "meaning": "or window to keep children from"
-  },
-  {
-    "word": "going",
-    "meaning": "out"
+    "meaning": "barricade put across lower part of doorway or window to keep children from going out"
   },
   {
     "word": "onalábat",
@@ -549,11 +529,7 @@
   },
   {
     "word": "alawá",
-    "meaning": "stick used for spearing fish or getting"
-  },
-  {
-    "word": "fruit",
-    "meaning": "from a tree"
+    "meaning": "stick used for spearing fish or getting fruit from a tree"
   },
   {
     "word": "áldeg",
@@ -601,7 +577,15 @@
   },
   {
     "word": "alíla",
-    "meaning": "servant; to care for (esp. children) (man -) 1alíliñgcondition"
+    "meaning": "servant; to care for (esp. children) (man -)"
+  },
+  {
+    "word": "1alíliñg",
+    "meaning": "condition"
+  },
+  {
+    "word": "2alíliñg",
+    "meaning": "to be like or comparable (man-)"
   },
   {
     "word": "alimbáwa",
@@ -653,11 +637,7 @@
   },
   {
     "word": "alipógo",
-    "meaning": "to arrange the hair in a roll or bun (but"
-  },
-  {
-    "word": "without",
-    "meaning": "braiding it)"
+    "meaning": "to arrange the hair in a roll or bun (but without braiding it)"
   },
   {
     "word": "alipospós",
@@ -673,7 +653,15 @@
   },
   {
     "word": "paalís",
-    "meaning": "let leave, drive away 1aliwánot; become different (on -)PANGASINAN DICTIONARY 6"
+    "meaning": "let leave, drive away"
+  },
+  {
+    "word": "1aliwá",
+    "meaning": "not; become different (on -)"
+  },
+  {
+    "word": "2aliwá",
+    "meaning": "untoward, improper"
   },
   {
     "word": "alíwliwá",
@@ -685,11 +673,7 @@
   },
   {
     "word": "alkansiá",
-    "meaning": "piece of bamboo tube, tin can, etc. used"
-  },
-  {
-    "word": "as",
-    "meaning": "‘bank’ for storing money"
+    "meaning": "piece of bamboo tube, tin can, etc. used as ‘bank’ for storing money"
   },
   {
     "word": "álmirol",
@@ -725,11 +709,7 @@
   },
   {
     "word": "álog",
-    "meaning": "stream, stream or river bed; acres,"
-  },
-  {
-    "word": "lowland",
-    "meaning": "field or farm"
+    "meaning": "stream, stream or river bed; acres,lowland field or farm"
   },
   {
     "word": "kaalogán",
@@ -796,6 +776,14 @@
     "meaning": "very many, great in number"
   },
   {
+    "word": "1amáyo",
+    "meaning": "dream of, contemplate (-en)"
+  },
+  {
+    "word": "2amáyo",
+    "meaning": "toy"
+  },
+  {
     "word": "ámba",
     "meaning": "to denounce; raise one’s hand to strike another"
   },
@@ -821,11 +809,7 @@
   },
   {
     "word": "ámil",
-    "meaning": "(person) unable to pronounce words"
-  },
-  {
-    "word": "clearly",
-    "meaning": "or articulate well"
+    "meaning": "(person) unable to pronounce words clearly or articulate well"
   },
   {
     "word": "amín",
@@ -889,11 +873,7 @@
   },
   {
     "word": "ampát",
-    "meaning": "to hold between the palms of both hands;"
-  },
-  {
-    "word": "put",
-    "meaning": "one’s hands against one’s cheeks (man -)"
+    "meaning": "to hold between the palms of both hands; put one’s hands against one’s cheeks (man -)"
   },
   {
     "word": "ampáya",
@@ -957,7 +937,7 @@
   },
   {
     "word": "ándap",
-    "meaning": "to flicker (man -)PANGASINAN DICTIONARY 8"
+    "meaning": "to flicker (man -)"
   },
   {
     "word": "ándar",
@@ -1021,11 +1001,7 @@
   },
   {
     "word": "anénen",
-    "meaning": "for what purpose? what will be done with? (followed by attributive pronoun if"
-  },
-  {
-    "word": "actor",
-    "meaning": "is indicated)"
+    "meaning": "for what purpose? what will be done with? (followed by attributive pronoun if actor is indicated)"
   },
   {
     "word": "áni",
@@ -1169,7 +1145,11 @@
   },
   {
     "word": "añggapó",
-    "meaning": "not existing añghÉl, angél /añghÉl/angel"
+    "meaning": "not existing"
+  },
+  {
+    "word": "añghÉl, angél /añghÉl/",
+    "meaning": "angel"
   },
   {
     "word": "áñgkas",
@@ -1197,11 +1177,7 @@
   },
   {
     "word": "aón",
-    "meaning": "to draw out, hide out from something or"
-  },
-  {
-    "word": "some",
-    "meaning": "place (maN -)"
+    "meaning": "to draw out, hide out from something or some place (maN -)"
   },
   {
     "word": "aúto",
@@ -1220,8 +1196,12 @@
     "meaning": "to share equally (man -, mi-); a share"
   },
   {
-    "word": "itself",
-    "meaning": "(man -)"
+    "word": "1apáp",
+    "meaning": "to put something under something else, as leaves in the bottom of a pot before the rice, so the latter will not stick to the pot itself (man-)"
+  },
+  {
+    "word": "2apáp",
+    "meaning": "gate to, way to"
   },
   {
     "word": "apáñgat",
@@ -1253,11 +1233,7 @@
   },
   {
     "word": "kápat",
-    "meaning": "that which makes four (i.e. fourth,"
-  },
-  {
-    "word": "but",
-    "meaning": "not in any order of ranking)PANGASINAN DICTIONARY 10"
+    "meaning": "that which makes four (i.e. fourth, but not in any order of ranking)"
   },
   {
     "word": "komápat",
@@ -1365,11 +1341,11 @@
   },
   {
     "word": "árapen",
-    "meaning": "future árapen na"
+    "meaning": "future"
   },
   {
-    "word": "taónnext",
-    "meaning": "year"
+    "word": "árapen na taon",
+    "meaning": "next year"
   },
   {
     "word": "árbaka",
@@ -1525,11 +1501,7 @@
   },
   {
     "word": "asípet",
-    "meaning": "large variety of cockroach; be attacked by"
-  },
-  {
-    "word": "cockroaches",
-    "meaning": "(-en )"
+    "meaning": "large variety of cockroach; be attacked by cockroaches (-en )"
   },
   {
     "word": "maasípet",
@@ -1556,8 +1528,12 @@
     "meaning": "sugar"
   },
   {
-    "word": "repeatedly",
-    "meaning": "(man -) 2asúlblue"
+    "word": "1asól",
+    "meaning": "to fetch water from river, Well, etc. (on-), repeatedly (man-)"
+  },
+  {
+    "word": "2asúl",
+    "meaning": "blue"
   },
   {
     "word": "asúnto",
@@ -1573,27 +1549,15 @@
   },
   {
     "word": "atádo",
-    "meaning": "pile of produce, forming a unit for sellingPANGASINAN DICTIONARY 12"
+    "meaning": "pile of produce, forming a unit for selling"
   },
   {
     "word": "atánor",
-    "meaning": "relationship holding between parents of person concerned and sponsors at baptism, confirmation, etc.; to become"
-  },
-  {
-    "word": "sponsor",
-    "meaning": "(man -) (term of reference only;"
-  },
-  {
-    "word": "see",
-    "meaning": "also com ádre, comp ádre)"
+    "meaning": "relationship holding between parents of person concerned and sponsors at baptism, confirmation, etc.; to become sponsor (man-) (term of reference only; see also comádre, compádre)"
   },
   {
     "word": "átañg",
-    "meaning": "an offering composed of coconut, cake, etc. for the purpose of placating"
-  },
-  {
-    "word": "malevolent",
-    "meaning": "spirits, usually made before sunset; to make such an offering (man -)"
+    "meaning": "an offering composed of coconut, cake, etc. for the purpose of placating malevolent spirits, usually made before sunset; to make such an offering (man-)"
   },
   {
     "word": "átap",
@@ -1625,15 +1589,7 @@
   },
   {
     "word": "átis",
-    "meaning": "tree with sweet, light yellowish green"
-  },
-  {
-    "word": "about",
-    "meaning": "the size of a large apple, sometimes"
-  },
-  {
-    "word": "known",
-    "meaning": "as sugar apple"
+    "meaning": "tree with sweet, light yellowish green about the size of a large apple, sometimes known as sugar apple"
   },
   {
     "word": "átol",
@@ -1657,15 +1613,15 @@
   },
   {
     "word": "atrEvída",
-    "meaning": "to get something without permission atsí, atchí older sister, older girl or woman of same generation (term of address and reference)"
+    "meaning": "to get something without permission"
+  },
+  {
+    "word": "atsí, atchí",
+    "meaning": "older sister, older girl or woman of same generation (term of address and reference)"
   },
   {
     "word": "awá",
-    "meaning": "interrogative particle rhetorically seeking addressee’s confirmation of remarks made: ‘isn’t that so?’ Occurs only at the"
-  },
-  {
-    "word": "end",
-    "meaning": "of sentence."
+    "meaning": "interrogative particle rhetorically seeking addressee’s confirmation of remarks made: ‘isn’t that so?’ Occurs only at the end of sentence"
   },
   {
     "word": "áwak",
@@ -1709,31 +1665,15 @@
   },
   {
     "word": "áwey",
-    "meaning": "I don’t know! (said by speaker of himself;"
-  },
-  {
-    "word": "may",
-    "meaning": "be followed by pronoun or phrase"
-  },
-  {
-    "word": "marked",
-    "meaning": "for topic)"
+    "meaning": "I don’t know! (said by speaker of himself; may be followed by pronoun or  phrase marked for topic"
   },
   {
     "word": "áwir",
-    "meaning": "to draw after, direct (maN -); imitate,"
-  },
-  {
-    "word": "follow",
-    "meaning": "(-en , i.e. the passive transformation"
+    "meaning": "to draw after, direct (maN -); imitate, follow (-en , i.e. the passive transformation of the active form with maN-)"
   },
   {
     "word": "awít",
-    "meaning": "to carry, take with one (man -; maN - bring"
-  },
-  {
-    "word": "someone",
-    "meaning": "along)"
+    "meaning": "to carry, take with one (man -; maN - bring someone along)"
   },
   {
     "word": "awíawít",
@@ -1797,6 +1737,6 @@
   },
   {
     "word": "áysiñg",
-    "meaning": "dress, outer clothingPANGASINAN DICTIONARY 14"
+    "meaning": "dress, outer clothing"
   }
 ]
