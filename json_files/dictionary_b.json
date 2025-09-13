@@ -1,11 +1,7 @@
 [
   {
     "word": "baág",
-    "meaning": "G-string or similar covering for private"
-  },
-  {
-    "word": "parts",
-    "meaning": "of body"
+    "meaning": "G-string or similar covering for private parts of body"
   },
   {
     "word": "báat",
@@ -41,11 +37,7 @@
   },
   {
     "word": "bagá",
-    "meaning": "tell, say, invite or ask by word of"
-  },
-  {
-    "word": "mouth",
-    "meaning": "(man -)"
+    "meaning": "tell, say, invite or ask by word of mouth (man -)"
   },
   {
     "word": "kabagaán",
@@ -77,7 +69,11 @@
   },
   {
     "word": "bágio",
-    "meaning": "storm, bad weather abágio, nabágio was, could be affected by storm"
+    "meaning": "storm, bad weather"
+  },
+  {
+    "word" : "abágio, nabágio",
+    "meaning": "was, could be affected by storm" 
   },
   {
     "word": "bagís",
@@ -85,11 +81,7 @@
   },
   {
     "word": "bagisén",
-    "meaning": "dish prepared by cooking meat"
-  },
-  {
-    "word": "dinala",
-    "meaning": "án)"
+    "meaning": "dish prepared by cooking meat or entrails in pig's blood(=dinalaán)"
   },
   {
     "word": "bagó",
@@ -101,7 +93,11 @@
   },
   {
     "word": "báile",
-    "meaning": "dance (occasion for dancing); to dance (mi-) baíntE, vEínte /baíntE/ twenty"
+    "meaning": "dance (occasion for dancing); to dance (mi-) twenty"
+  },
+  {
+    "word": "baíntE, vEínte /baíntE/", 
+    "meaning": "twenty" 
   },
   {
     "word": "baíñg",
@@ -113,15 +109,11 @@
   },
   {
     "word": "mabaíñg",
-    "meaning": "shy 15"
+    "meaning": "shy"
   },
   {
     "word": "bíka",
-    "meaning": "cow, bull, head of cattle; use as work animals, roughly loosen the ground by"
-  },
-  {
-    "word": "ploughing",
-    "meaning": "(man -)"
+    "meaning": "cow, bull, head of cattle; use as work animals, roughly loosen the ground by ploughing (man-)"
   },
   {
     "word": "bakál",
@@ -129,11 +121,15 @@
   },
   {
     "word": "bakás",
-    "meaning": "commemoration of the anniversary of"
+    "meaning": "commemoration of the anniversary of the death of a relative"
   },
   {
-    "word": "follow",
-    "meaning": "a trail of footprints, track (maN -) 2bakátloud, loudly"
+    "word": "1bakát",
+    "meaning": "footprint. track (left by animal, etc.); follow a trail of footprints, track (maN-)"
+  },
+  {
+    "word": "2bakát",
+    "meaning": "loud, loudly"
   },
   {
     "word": "bakasyón",
@@ -188,12 +184,16 @@
     "meaning": "to attract"
   },
   {
-    "word": "1b",
-    "meaning": "álañgwild (of plants)"
+    "word": "1bálañg",
+    "meaning": "wild (of plants)"
   },
   {
-    "word": "2b",
-    "meaning": "álañgto lose oneself, get lost 3bálañgeach"
+    "word": "2bálañg",
+    "meaning": "to lose oneself, get lost"
+  },
+  {
+    "word": "3bálañg",
+    "meaning": "each"
   },
   {
     "word": "balañgá",
@@ -237,7 +237,7 @@
   },
   {
     "word": "balátyañg",
-    "meaning": "iron, steelPANGASINAN DICTIONARY 16"
+    "meaning": "iron, steel"
   },
   {
     "word": "báldE",
@@ -353,19 +353,11 @@
   },
   {
     "word": "balisóñgsoñg",
-    "meaning": "cone-like arrangement; to roll"
-  },
-  {
-    "word": "something",
-    "meaning": "up, make into a cone (man -)"
+    "meaning": "cone-like arrangement; to roll something up, make into a cone (man -)"
   },
   {
     "word": "balíta",
-    "meaning": "news, information (p1. balbalíta ); to"
-  },
-  {
-    "word": "inform",
-    "meaning": "(mañgi -)"
+    "meaning": "news, information (p1. balbalíta ); to inform (mañgi -)"
   },
   {
     "word": "balitók",
@@ -441,23 +433,11 @@
   },
   {
     "word": "baltík",
-    "meaning": "colic thought to be caused by"
+    "meaning": "colic thought to be caused by melevolent spirits"
   },
   {
-    "word": "malevolent",
-    "meaning": "spirits"
-  },
-  {
-    "word": "fuÉra",
-    "meaning": "baltík! said to drive away harmful"
-  },
-  {
-    "word": "effects",
-    "meaning": "likely to result e.g. from"
-  },
-  {
-    "word": "a",
-    "meaning": "child’s having been praised"
+    "word": "fuÉra baltík!",
+    "meaning": "said to drive away harmful effects likely to result e.g from a child's havig been praised for being healthy"
   },
   {
     "word": "balyañgét",
@@ -465,11 +445,7 @@
   },
   {
     "word": "bána",
-    "meaning": "to meet in a place, have a date,"
-  },
-  {
-    "word": "appointment",
-    "meaning": "(man -, mi-)"
+    "meaning": "to meet in a place, have a date, appointment (man-, mi-)"
   },
   {
     "word": "banál",
@@ -505,23 +481,15 @@
   },
   {
     "word": "banesbés",
-    "meaning": "the noise made by strong wind; to roar (of the wind) (man -)PANGASINAN DICTIONARY 18"
+    "meaning": "the noise made by strong wind; to roar (of the wind) (man -)"
   },
   {
     "word": "banikél",
-    "meaning": "having insufficient means for one’s"
+    "meaning": "having insufficient means for one’s minimal needs or for some important purpose (e.g. educating one’s children)"
   },
   {
-    "word": "minimal",
-    "meaning": "needs or for some important purpose (e.g. educating one’s children)"
-  },
-  {
-    "word": "vanílla",
-    "meaning": "/banílya/ vanilla"
-  },
-  {
-    "word": "bánco",
-    "meaning": "see bañgko"
+    "word": "vanílla /banílya/",
+    "meaning": " vanilla"
   },
   {
     "word": "báno",
@@ -533,11 +501,7 @@
   },
   {
     "word": "bambáno",
-    "meaning": "ill effect resulting from"
-  },
-  {
-    "word": "malevolence",
-    "meaning": "of spirit"
+    "meaning": "ill effect resulting from malevolence of spirit"
   },
   {
     "word": "banuít",
@@ -549,27 +513,15 @@
   },
   {
     "word": "banság",
-    "meaning": "to do several things at once, do"
-  },
-  {
-    "word": "simultaneously",
-    "meaning": "(man -)"
+    "meaning": "to do several things at once, do simultaneously (man-)"
   },
   {
     "word": "mibanság",
-    "meaning": "simultaneously, while, at the"
-  },
-  {
-    "word": "same",
-    "meaning": "time as"
+    "meaning": "simultaneously, while, at the same time as"
   },
   {
     "word": "bánsal",
-    "meaning": "wedding reception; take part in"
-  },
-  {
-    "word": "reception",
-    "meaning": "(mi -)"
+    "meaning": "wedding reception; take part in reception (mi-)"
   },
   {
     "word": "bántag",
@@ -629,11 +581,7 @@
   },
   {
     "word": "bañggíra",
-    "meaning": "place for washing dishes and storing"
-  },
-  {
-    "word": "stone",
-    "meaning": "water jars in house"
+    "meaning": "place for washing dishes and storing stone water jars in house"
   },
   {
     "word": "báñgkag",
@@ -645,15 +593,19 @@
   },
   {
     "word": "bañgkíñg",
-    "meaning": "unbalanced, unevenly loaded; to load"
+    "meaning": "unbalanced, unevenly loaded; to load unevenly (man-)"
   },
   {
-    "word": "unevenly",
-    "meaning": "(man -) bañgkíto,"
+    "word": "bánco /báñgko",
+    "meaning": "(commercial) bank,"
   },
   {
-    "word": "banquítosmall",
-    "meaning": "bench, stool"
+    "word": "bañgko",
+    "meaning": "bench"
+  },
+  {
+    "word": "bañgkíto, banquíto",
+    "meaning": "small bench, stool"
   },
   {
     "word": "bañgno",
@@ -693,11 +645,7 @@
   },
   {
     "word": "barís",
-    "meaning": "measles; small spots on legs, arms, etc. symptomatic of measles and"
-  },
-  {
-    "word": "similar",
-    "meaning": "diseases"
+    "meaning": "measles; small spots on legs, arms, etc. symptomatic of measles and similar diseases"
   },
   {
     "word": "baríta",
@@ -781,15 +729,11 @@
   },
   {
     "word": "báston",
-    "meaning": "canePANGASINAN DICTIONARY 20"
+    "meaning": "cane"
   },
   {
     "word": "bástos",
-    "meaning": "indecent, rude (also used as an"
-  },
-  {
-    "word": "exclamation",
-    "meaning": "of disgust or disapproval)"
+    "meaning": "indecent, rude (also used as an exclamation of disgust or disapproval)"
   },
   {
     "word": "batáan",
@@ -801,11 +745,7 @@
   },
   {
     "word": "baték",
-    "meaning": "spackling and dappling of colors; spot;"
-  },
-  {
-    "word": "color",
-    "meaning": "of paper, fabric, etc.; dye"
+    "meaning": "spackling and dappling of colors; spot; color of paper, fabric, etc.; dye"
   },
   {
     "word": "batér",
@@ -1025,11 +965,7 @@
   },
   {
     "word": "berbér",
-    "meaning": "bundle (e.g. of string beans); to"
-  },
-  {
-    "word": "bundle",
-    "meaning": "(man -)"
+    "meaning": "bundle (e.g. of string beans); to bundle (man-)"
   },
   {
     "word": "vÉrbo",
@@ -1041,11 +977,7 @@
   },
   {
     "word": "betág",
-    "meaning": "to crack, break (-en ); crack esp. in a"
-  },
-  {
-    "word": "clay",
-    "meaning": "pot"
+    "meaning": "to crack, break (-en ); crack esp. in a clay pot"
   },
   {
     "word": "nabtág",
@@ -1065,7 +997,7 @@
   },
   {
     "word": "mabetbét",
-    "meaning": "often 1betélcold, coolnessPANGASINAN DICTIONARY 22"
+    "meaning": "often 1betélcold, coolness"
   },
   {
     "word": "ambetél",
@@ -1085,11 +1017,7 @@
   },
   {
     "word": "bíbi",
-    "meaning": "baby (informal speech; otherwise anák"
-  },
-  {
-    "word": "is",
-    "meaning": "preferred)"
+    "meaning": "baby (informal speech; otherwise anák is preferred)"
   },
   {
     "word": "bibíl",
@@ -1121,15 +1049,11 @@
   },
   {
     "word": "bigís",
-    "meaning": "caterpillars, crawling grubs and"
+    "meaning": "caterpillars, crawling grubs and insects (pl. bigíbigís )"
   },
   {
-    "word": "insects",
-    "meaning": "(pl. bigíbigís ) abigís, nabigís was, could be affected by"
-  },
-  {
-    "word": "insect",
-    "meaning": "larvae"
+    "word": "abigís, nabigís",
+    "meaning": "was, could be affected by insect larvae "
   },
   {
     "word": "biglá",
@@ -1141,11 +1065,7 @@
   },
   {
     "word": "biíg",
-    "meaning": "separate, set aside, appropriate,"
-  },
-  {
-    "word": "isolate",
-    "meaning": "(mañgi -); become separated etc. (on -)"
+    "meaning": "separate, set aside, appropriate, isolate (mañgi-); become separated etc. (on-) "
   },
   {
     "word": "bíkkel",
@@ -1165,19 +1085,11 @@
   },
   {
     "word": "bikotkót",
-    "meaning": "to curve, walk tending to curve to one"
-  },
-  {
-    "word": "side",
-    "meaning": "(as e.g. when carrying something heavy) (man –)"
+    "meaning": "to curve, walk tending to curve to one side (as e.g. when carrying something heavy) (man–)"
   },
   {
     "word": "bílañg",
-    "meaning": "for example (usu. follows siñgá ‘like,"
-  },
-  {
-    "word": "as",
-    "meaning": "if’, or is reduplicated: bilbílañg )"
+    "meaning": "for example (usu. follows siñgá ‘like, as if', or is reduplicated: bilbílañg)"
   },
   {
     "word": "biláñg",
@@ -1217,11 +1129,7 @@
   },
   {
     "word": "bilín",
-    "meaning": "education, advice, counsel; to advise,"
-  },
-  {
-    "word": "counsel",
-    "meaning": "(man -)"
+    "meaning": "education, advice, counsel; to advise, counsel (man-)"
   },
   {
     "word": "biloñgét",
@@ -1281,11 +1189,7 @@
   },
   {
     "word": "bíñgkol",
-    "meaning": "broken crust that results from plowing"
-  },
-  {
-    "word": "during",
-    "meaning": "dry season"
+    "meaning": "broken crust that results from plowing during dry season"
   },
   {
     "word": "birbír",
@@ -1357,7 +1261,7 @@
   },
   {
     "word": "bítay",
-    "meaning": "to hang, execute by hanging (man - self, maN - another)PANGASINAN DICTIONARY 24"
+    "meaning": "to hang, execute by hanging (man - self, maN - another)"
   },
   {
     "word": "bitéwen",
@@ -1365,15 +1269,7 @@
   },
   {
     "word": "bitíl",
-    "meaning": "(of a woman) determined to marry"
-  },
-  {
-    "word": "someone",
-    "meaning": "not approved of by her"
-  },
-  {
-    "word": "family",
-    "meaning": "etc."
+    "meaning": "(of a woman) determined to marry someone not approved off by her family, etc."
   },
   {
     "word": "abitíl",
@@ -1413,11 +1309,7 @@
   },
   {
     "word": "buál",
-    "meaning": "tear out, break off (as a branch from a"
-  },
-  {
-    "word": "tree",
-    "meaning": "(maN -)"
+    "meaning": "tear out, break off (as a branch from a tree (maN - )"
   },
   {
     "word": "buáñg",
@@ -1457,15 +1349,15 @@
   },
   {
     "word": "abuék",
-    "meaning": "drunk kabuék, inkabuék drunkenness"
+    "meaning": "drunk"
   },
   {
-    "word": "buéna",
-    "meaning": "máno first thing sold in the day, often given"
+    "word": "kabuék, inkabuék drunkenness",
+    "meaning": "drunkenness"
   },
   {
-    "word": "away",
-    "meaning": "at a bargain price for good luck"
+    "word": "buéna máno",
+    "meaning": "first thing sold in the day, often given awat at a bargain price for good luck"
   },
   {
     "word": "panbuenamanoán",
@@ -1509,11 +1401,7 @@
   },
   {
     "word": "bobokáyoén",
-    "meaning": "middle stage in development of coconut, still green but"
-  },
-  {
-    "word": "sufficiently",
-    "meaning": "mature to be used"
+    "meaning": "middle stage in development of coconut, still green but sufficiently mature to be used for bokáyo"
   },
   {
     "word": "bokél",
@@ -1537,19 +1425,11 @@
   },
   {
     "word": "bókor",
-    "meaning": "alone; different from the rest, unique,"
-  },
-  {
-    "word": "set",
-    "meaning": "apart"
+    "meaning": "alone; different from the rest, unique, set apart"
   },
   {
     "word": "bokót",
-    "meaning": "bent over, hunched, stooped (esp. of"
-  },
-  {
-    "word": "elderly",
-    "meaning": "people)"
+    "meaning": "bent over, hunched, stooped (esp. of elderly people)"
   },
   {
     "word": "búksot",
@@ -1577,11 +1457,7 @@
   },
   {
     "word": "búlañg",
-    "meaning": "cockfight; attend a cockfight (mi -);"
-  },
-  {
-    "word": "participate",
-    "meaning": "in cockfight (by owning a cock, betting, etc.) (man -)"
+    "meaning": "cockfight; attend a cockfight (mi -); participate in cockfight (by owning a cock, betting, etc.) (man -)"
   },
   {
     "word": "buláñglañg",
@@ -1597,11 +1473,7 @@
   },
   {
     "word": "bolawén",
-    "meaning": "large, tall growing tree with small leaves; the trunk is used for making"
-  },
-  {
-    "word": "house",
-    "meaning": "posts etc."
+    "meaning": "large, tall growing tree with small leaves; the trunk is used for making house posts etc."
   },
   {
     "word": "boláwit",
@@ -1609,11 +1481,7 @@
   },
   {
     "word": "bolból",
-    "meaning": "a thin porridge of boiled rice; to boil"
-  },
-  {
-    "word": "rice",
-    "meaning": "thus (man -)"
+    "meaning": "a thin porridge of boiled rice; to boil rice thus (man -)"
   },
   {
     "word": "bolég",
@@ -1629,7 +1497,7 @@
   },
   {
     "word": "bólik",
-    "meaning": "speckling of black and white (e.g. in"
+    "meaning": "speckling of black and white (e.g. in the feathers of a chicken)"
   },
   {
     "word": "bolílit",
@@ -1637,7 +1505,7 @@
   },
   {
     "word": "bolóbol",
-    "meaning": "topic; hubbubPANGASINAN DICTIONARY 26"
+    "meaning": "topic; hubbub"
   },
   {
     "word": "bológ",
@@ -1689,11 +1557,7 @@
   },
   {
     "word": "bonál",
-    "meaning": "to transplant rice seedlings; plow,"
-  },
-  {
-    "word": "cultivate",
-    "meaning": "the field for transplanting"
+    "meaning": "to transplant rice seedlings; plow, cultivate the field for transplanting rice seedlings"
   },
   {
     "word": "bonék",
@@ -1829,11 +1693,7 @@
   },
   {
     "word": "bótay",
-    "meaning": "to return, be present after a long"
-  },
-  {
-    "word": "absence",
-    "meaning": "(on -)"
+    "meaning": "to return, be present after a long absence (on -)"
   },
   {
     "word": "botÉlya",
@@ -1865,7 +1725,7 @@
   },
   {
     "word": "onboboyág",
-    "meaning": "time of growth, growing season"
+    "meaning": "time of growth, growing season."
   },
   {
     "word": "bóyak",
@@ -1873,6 +1733,6 @@
   },
   {
     "word": "boyóg",
-    "meaning": "large jar (e.g. water pot)PANGASINAN DICTIONARY 28"
+    "meaning": "large jar (e.g. water pot)"
   }
 ]
