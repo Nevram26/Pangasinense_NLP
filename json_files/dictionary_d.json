@@ -33,11 +33,7 @@
   },
   {
     "word": "daég",
-    "meaning": "overcome, surpass, overpower, prevail,"
-  },
-  {
-    "word": "deliver",
-    "meaning": "(maN -)"
+    "meaning": "overcome, surpass, overpower, prevail, deliver (maN-)"
   },
   {
     "word": "dagá",
@@ -53,11 +49,7 @@
   },
   {
     "word": "dagés",
-    "meaning": "to bear down (as a woman in labor) (on -);"
-  },
-  {
-    "word": "be",
-    "meaning": "forced to take stringent measures"
+    "meaning": "to bear down (as a woman in labor) (on -); be forced  to take stringent measures"
   },
   {
     "word": "dáget",
@@ -77,15 +69,15 @@
   },
   {
     "word": "dágom",
-    "meaning": "needle 1dágopsum, total"
+    "meaning": "needle"
   },
   {
-    "word": "2d",
-    "meaning": "ágopplace where people happen to meet or"
+    "word": "1dágop",
+    "meaning": "sum, total"
   },
   {
-    "word": "come",
-    "meaning": "together without prearranged plan"
+    "word": "2dágop",
+    "meaning": "place where people happen to meet or come together without prearranged plan"
   },
   {
     "word": "dáges",
@@ -145,7 +137,7 @@
   },
   {
     "word": "dalá",
-    "meaning": "blood 30"
+    "meaning": "blood"
   },
   {
     "word": "dinalaán",
@@ -184,8 +176,8 @@
     "meaning": "talkative (also, derogatory term for Chinese)"
   },
   {
-    "word": "1d",
-    "meaning": "aléminside (a pile etc.), depth"
+    "word": "1dalém",
+    "meaning": "inside (a pile etc.), depth"
   },
   {
     "word": "aralém",
@@ -194,6 +186,10 @@
   {
     "word": "kaaralém",
     "meaning": "depth"
+  },
+  {
+    "word": "2dalém",
+    "meaning": "to accuse (man-)"
   },
   {
     "word": "daléyet",
@@ -233,11 +229,7 @@
   },
   {
     "word": "daluñgdóñg",
-    "meaning": "black headcloth worn by female relatives"
-  },
-  {
-    "word": "put",
-    "meaning": "a veil on the head (man -)"
+    "meaning": "black headcloth worn by female relatives put a veil on the head (man -)"
   },
   {
     "word": "dalós",
@@ -261,7 +253,15 @@
   },
   {
     "word": "damá",
-    "meaning": "the width of the hand or four fingers 1damágnews 2damágjealous, become jealous (on -)"
+    "meaning": "the width of the hand or four fingers"
+  },
+  {
+    "word": "1damág",
+    "meaning": "news"
+  },
+  {
+    "word": "2damág",
+    "meaning": "jealous, become jealous (on -)"
   },
   {
     "word": "dámay",
@@ -285,11 +285,7 @@
   },
   {
     "word": "dampíl",
-    "meaning": "to strike someone with the hand on any"
-  },
-  {
-    "word": "part",
-    "meaning": "of the body"
+    "meaning": "to strike someone with the hand on any part of the body"
   },
   {
     "word": "dámsak",
@@ -297,15 +293,7 @@
   },
   {
     "word": "dánay",
-    "meaning": "do something in an orderly and"
-  },
-  {
-    "word": "systematic",
-    "meaning": "fashion, perform task in"
-  },
-  {
-    "word": "proper",
-    "meaning": "manner"
+    "meaning": "do something in an orderly and systematic fashion, perform task in proper manner"
   },
   {
     "word": "dándan",
@@ -332,12 +320,20 @@
     "meaning": "irrigation system"
   },
   {
-    "word": "dantál",
-    "meaning": "order, harmony danyós, dañós damages (compensation for wrong"
+    "word": "1dánop",
+    "meaning": "to till (man-)"
   },
   {
-    "word": "inflicted",
-    "meaning": "etc.)"
+    "word": "2dánop",
+    "meaning": "collection; to collect (e.g. stamps, coins, etc.)"
+  },
+  {
+    "word": "dantál",
+    "meaning": "order, harmony"
+  },
+  {
+    "word": "danyós, dañós",
+    "meaning": "damages (compensation for wrong inflicted etc.)"
   },
   {
     "word": "dañgáldañgál",
@@ -425,11 +421,7 @@
   },
   {
     "word": "dásig",
-    "meaning": "straight line, row; to line up, arrange in a"
-  },
-  {
-    "word": "line",
-    "meaning": "(man -)PANGASINAN DICTIONARY 32"
+    "meaning": "straight line, row; to line up, arrange in a line (man-)"
   },
   {
     "word": "datál",
@@ -457,7 +449,7 @@
   },
   {
     "word": "piráwat",
-    "meaning": "to seek a favor dawí"
+    "meaning": "to seek a favor"
   },
   {
     "word": "arawí",
@@ -605,11 +597,11 @@
   },
   {
     "word": "dEsgrasiá",
-    "meaning": "accident desi- (before numerals saís , siÉte , ócho ,"
+    "meaning": "accident  "
   },
   {
-    "word": "nuÉvE",
-    "meaning": ") -teen"
+    "word": "desi- ",
+    "meaning": "(before numerals saís , siÉte , ócho , nuÉvE) -teen"
   },
   {
     "word": "desiáng",
@@ -629,19 +621,11 @@
   },
   {
     "word": "dEtÉra",
-    "meaning": "dismissal of gathering, class, etc.;"
-  },
-  {
-    "word": "finishing",
-    "meaning": "time"
+    "meaning": "dismissal of gathering, class, etc. finishing time;"
   },
   {
     "word": "di",
-    "meaning": "plural or respect marker used with"
-  },
-  {
-    "word": "personal",
-    "meaning": "nouns to indicate subject/topic"
+    "meaning": "plural or respect marker used with personal nouns to indicate subject/topic"
   },
   {
     "word": "diá",
@@ -669,11 +653,7 @@
   },
   {
     "word": "dikén",
-    "meaning": "cloth ring placed on head under pot,"
-  },
-  {
-    "word": "basket",
-    "meaning": "being carried"
+    "meaning": "cloth ring placed on head under pot, basket being carried"
   },
   {
     "word": "díket",
@@ -729,7 +709,7 @@
   },
   {
     "word": "díñgdiñg",
-    "meaning": "wall; to wall a house etc. (man -)PANGASINAN DICTIONARY 34"
+    "meaning": "wall; to wall a house etc. (man -)"
   },
   {
     "word": "diñgót",
@@ -749,11 +729,7 @@
   },
   {
     "word": "diplóma",
-    "meaning": "diploma, academic degree, certificate of"
-  },
-  {
-    "word": "completion",
-    "meaning": "(of schooling, course, etc.)"
+    "meaning": "diploma, academic degree, certificate of completion (of schooling, course, etc.)"
   },
   {
     "word": "diputádo",
@@ -761,11 +737,7 @@
   },
   {
     "word": "directória",
-    "meaning": "directorate (esp. committee of leaders of"
-  },
-  {
-    "word": "political",
-    "meaning": "party)"
+    "meaning": "directorate (esp. committee of leaders of political party)"
   },
   {
     "word": "dirlíñg",
@@ -793,15 +765,7 @@
   },
   {
     "word": "ditá",
-    "meaning": "venom, poison secreted by snakes and"
-  },
-  {
-    "word": "other",
-    "meaning": "animals; to smear poison on an"
-  },
-  {
-    "word": "arrow",
-    "meaning": "head etc."
+    "meaning": "venom, poison secreted by snakes and other animals; to smear poison on an arrow head etc."
   },
   {
     "word": "ditán",
@@ -889,19 +853,11 @@
   },
   {
     "word": "dukámil",
-    "meaning": "poor work, messy condition or"
-  },
-  {
-    "word": "appearance",
-    "meaning": "of something done"
+    "meaning": "poor work, messy condition or appearance of something done"
   },
   {
     "word": "dokdók",
-    "meaning": "to pick up or raise something from the"
-  },
-  {
-    "word": "floor",
-    "meaning": "(maN -)"
+    "meaning": "to pick up or raise something from the floor (maN -)"
   },
   {
     "word": "dukéy",
@@ -961,15 +917,15 @@
   },
   {
     "word": "dológ",
-    "meaning": "to (present a) petition to a superior court (on-) dólyar, dóllar /dólyar/dollar (plural: dolyárEs )"
+    "meaning": "to (present a) petition to a superior court (on-)"
+  },
+  {
+    "word": "dólyar, dóllar /dólyar/dollar",
+    "meaning": "(plural: dolyárEs)"
   },
   {
     "word": "dumá",
-    "meaning": "different; be different (man -); become"
-  },
-  {
-    "word": "different",
-    "meaning": "(on -)"
+    "meaning": "different; be different (man -); become different (on -)"
   },
   {
     "word": "nidumá",
@@ -997,11 +953,7 @@
   },
   {
     "word": "Don",
-    "meaning": "honorific title preceding Christian name"
-  },
-  {
-    "word": "families",
-    "meaning": "and also barrio captains"
+    "meaning": "honorific title preceding Christian name families and also barrio captains"
   },
   {
     "word": "dóndon",
@@ -1017,23 +969,11 @@
   },
   {
     "word": "Doña",
-    "meaning": "honorific title preceding Christian name"
-  },
-  {
-    "word": "notable",
-    "meaning": "family; also used to denote"
-  },
-  {
-    "word": "woman",
-    "meaning": "given to asserting superiority etc.PANGASINAN DICTIONARY 36"
+    "meaning": "honorific title preceding Christian name notable family; also used to denote woman given to asserting superiority etc."
   },
   {
     "word": "doñgáp",
-    "meaning": "to breathe heavily from illness or"
-  },
-  {
-    "word": "exhaustion",
-    "meaning": "(man -)"
+    "meaning": "to breathe heavily from illness or exhaustion (man -)"
   },
   {
     "word": "doñgáw",
@@ -1049,19 +989,11 @@
   },
   {
     "word": "doñgó",
-    "meaning": "to go to eat at the table (on -); meet"
-  },
-  {
-    "word": "someone",
-    "meaning": "face to face"
+    "meaning": "to go to eat at the table (on -); meet someone face to face"
   },
   {
     "word": "paroñgó",
-    "meaning": "conduct guests to the table, have"
-  },
-  {
-    "word": "guests",
-    "meaning": "for dinner (man -); serve (food) (i -)"
+    "meaning": "conduct guests to the table, have guests for dinner (man -); serve (food) (i -)"
   },
   {
     "word": "pandoroñgoán",
@@ -1081,11 +1013,7 @@
   },
   {
     "word": "dopág",
-    "meaning": "presence of many people at a gathering, funeral, etc.; to be present at such a"
-  },
-  {
-    "word": "gathering",
-    "meaning": "(on -)"
+    "meaning": "presence of many people at a gathering, funeral, etc.; to be present at such a gathering (on -)"
   },
   {
     "word": "dopíkpik",
@@ -1093,11 +1021,7 @@
   },
   {
     "word": "dopisák",
-    "meaning": "to sit in a relaxed or carefree manner, to"
-  },
-  {
-    "word": "sprawl",
-    "meaning": "(on -)"
+    "meaning": "to sit in a relaxed or carefree manner, to sprawl (on -)"
   },
   {
     "word": "dupóñg",
