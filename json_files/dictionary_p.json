@@ -9,7 +9,7 @@
   },
   {
     "word": "pádpar",
-    "meaning": "to run aground because of adverse wind"
+    "meaning": "to run aground because of adverse wind or current; shipwreck"
   },
   {
     "word": "pádrE",
@@ -37,19 +37,7 @@
   },
   {
     "word": "pagátin",
-    "meaning": "special wedding celebration held at the"
-  },
-  {
-    "word": "house",
-    "meaning": "of the bride’s parents after the"
-  },
-  {
-    "word": "wedding",
-    "meaning": "(irrespective of where the latter"
-  },
-  {
-    "word": "takes",
-    "meaning": "place)"
+    "meaning": "special wedding celebration held at the house of the bride’s parents after the wedding (irrespective of where the latter takes place)"
   },
   {
     "word": "pagátpat",
@@ -65,27 +53,19 @@
   },
   {
     "word": "págod",
-    "meaning": "to tie an animal with a long rope for"
+    "meaning": "to tie an animal with a long rope for grazing (man -)"
+  },  
+  {
+    "word": "1pagpág",
+    "meaning": "to scoop up dirt in the hands (man -)"
   },
   {
-    "word": "grazing",
-    "meaning": "(man -)"
-  },
-  {
-    "word": "1p",
-    "meaning": "agpágto scoop up dirt in the hands (man -)"
-  },
-  {
-    "word": "2p",
-    "meaning": "agpágpartially paralyzed"
+    "word": "2pagpág",
+    "meaning": "partially paralyzed"
   },
   {
     "word": "país",
-    "meaning": "fish wrapped in banana leaf and cooked in"
-  },
-  {
-    "word": "a",
-    "meaning": "kind of rice cake"
+    "meaning": "fish wrapped in banana leaf and cooked in a kind of rice cake"
   },
   {
     "word": "páit",
@@ -124,12 +104,20 @@
     "meaning": "watermelon"
   },
   {
-    "word": "catch",
-    "meaning": "fish 83"
+    "word": "1pakpák",
+    "meaning": "to beat cotton or cloth with a rod"
   },
   {
-    "word": "traditional",
-    "meaning": "type house"
+    "word": "2pakpák",
+    "meaning": "method of fishing or instrument used to catch fish"
+  },
+  {
+    "word": "1paksíw",
+    "meaning": "to dismantle the stairs or ladder leading to the upper part (living quarters) of a traditional type house"
+  },
+  {
+    "word": "2paksíw",
+    "meaning": "a dish consisting of fish cooked with vinegar, garlic, and spices"
   },
   {
     "word": "páktak",
@@ -142,6 +130,14 @@
   {
     "word": "pakwán",
     "meaning": "= pakuán"
+  },
+    {
+    "word": "1palá",
+    "meaning": "coconut pith"
+  },
+  {
+    "word": "2palá",
+    "meaning": "place for storing pillows and mats"
   },
   {
     "word": "palá",
@@ -158,6 +154,14 @@
   {
     "word": "palagpág",
     "meaning": "to uproot, blow over (usu. of the wind)"
+  },
+  {
+    "word": "1palakpák",
+    "meaning": "to whiten"
+  },
+  {
+    "word": "2palakpák",
+    "meaning": "applause"
   },
   {
     "word": "palamíre",
@@ -177,7 +181,15 @@
   },
   {
     "word": "paláñg",
-    "meaning": "to cut or tear cloth or paper diagonally or"
+    "meaning": "to cut or tear cloth or paper diagonally or in a curve"
+  },
+  {
+    "word": "1palápa",
+    "meaning": "midrib of coconut leaf"
+  },
+  {
+    "word": "2palápa",
+    "meaning": "level plot prepared as seed bed"
   },
   {
     "word": "pálapála",
@@ -185,11 +197,7 @@
   },
   {
     "word": "pálar",
-    "meaning": "lines on palm of hand; luck, fortune; be"
-  },
-  {
-    "word": "affected",
-    "meaning": "by fortune (-an )"
+    "meaning": "lines on palm of hand; luck, fortune; be affected by fortune (-an)"
   },
   {
     "word": "mapálar",
@@ -202,6 +210,14 @@
   {
     "word": "palás",
     "meaning": "drum beat"
+  },
+  {
+    "word": "1paláspas",
+    "meaning": "to clear up the way, remove obstructions from road or path"
+  },
+    {
+    "word": "2paláspas",
+    "meaning": "equally divided, of same weight, volume, etc."
   },
   {
     "word": "palásyo",
@@ -225,15 +241,11 @@
   },
   {
     "word": "kapalduá",
-    "meaning": "halfPANGASINAN DICTIONARY 84"
+    "meaning": "half"
   },
   {
     "word": "paleén",
-    "meaning": "to give time to take effect; observe"
-  },
-  {
-    "word": "whether",
-    "meaning": "or not medicine treatment etc. is effective; let settle; to drain (-an )"
+    "meaning": "to give time to take effect; observe whether or not medicine treatment etc. is effective; let settle; to drain (-an )"
   },
   {
     "word": "palés",
@@ -277,35 +289,15 @@
   },
   {
     "word": "palná",
-    "meaning": "(of air) to move steadily and calmly; to"
-  },
-  {
-    "word": "speak",
-    "meaning": "fluently and pleasantly"
+    "meaning": "(of air) to move steadily and calmly; to speak fluently and pleasantly"
   },
   {
     "word": "mapalná",
-    "meaning": "steady, calm (movement of air);"
-  },
-  {
-    "word": "pleasant",
-    "meaning": "(speech)"
+    "meaning": "steady, calm (movement of air); pleasant (speech)"
   },
   {
     "word": "paloáran",
-    "meaning": "marriage rite involving the drinking of"
-  },
-  {
-    "word": "wine",
-    "meaning": "by the bride and groom after the"
-  },
-  {
-    "word": "church",
-    "meaning": "ceremony; the bride’s family"
-  },
-  {
-    "word": "provides",
-    "meaning": "the wine for the groom, and vice versa"
+    "meaning": "marriage rite involving the drinking of wine by the bride and groom after the church ceremony; the bride’s family provides the wine for the groom, and vice versa"
   },
   {
     "word": "palóñg",
@@ -333,7 +325,7 @@
   },
   {
     "word": "paltóg",
-    "meaning": "sound of or like gunfire; to shoot (maN -);"
+    "meaning": "sound of or like gunfire; to shoot (maN -); to go shooting, hunt (man-)"
   },
   {
     "word": "palyá",
@@ -350,6 +342,14 @@
   {
     "word": "pan",
     "meaning": "---"
+  },
+  {
+    "word": "pan de sal",
+    "meaning": "bread bun usu. eaten at breakfast"
+  },
+  {
+    "word": "pan de leche",
+    "meaning": "bread from or in loaf"
   },
   {
     "word": "paná",
@@ -377,19 +377,7 @@
   },
   {
     "word": "panés",
-    "meaning": "piece of black cloth pinned on clothing of"
-  },
-  {
-    "word": "relatives",
-    "meaning": "of deceased, worn as a sign of"
-  },
-  {
-    "word": "mourning",
-    "meaning": "for one year, until the bakás ; to"
-  },
-  {
-    "word": "wear",
-    "meaning": "such a piece of cloth (man -)"
+    "meaning": "piece of black cloth pinned on clothing of relatives of deceased, worn as a sign of mourning for one year, until the bakás; to wear such a piece of cloth (man-)"
   },
   {
     "word": "panígo",
@@ -425,11 +413,7 @@
   },
   {
     "word": "pansít",
-    "meaning": "dish consisting of noodles to which"
-  },
-  {
-    "word": "chopped",
-    "meaning": "meat and vegetables have been added"
+    "meaning": "dish consisting of noodles to which chopped meat and vegetables have been added"
   },
   {
     "word": "pantalón",
@@ -449,19 +433,7 @@
   },
   {
     "word": "pántol",
-    "meaning": "a large tree, the fruit of which is similar in"
-  },
-  {
-    "word": "appearance",
-    "meaning": "to a large apricot when ripe,"
-  },
-  {
-    "word": "but",
-    "meaning": "with somewhat sour tasting flesh and"
-  },
-  {
-    "word": "large",
-    "meaning": "white-coated seeds"
+    "meaning": "a large tree, the fruit of which is similar in apperance to a large apricot when ripe, but with somewhat sour tasting flesh and large white-coated seeds"
   },
   {
     "word": "pányo",
@@ -505,15 +477,19 @@
   },
   {
     "word": "paór",
-    "meaning": "to arrange the leaves of the nipa palm"
-  },
-  {
-    "word": "into",
-    "meaning": "panels for thatching"
+    "meaning": "to arrange the leaves of the nipa palm into panels for thatching ("
   },
   {
     "word": "pinaór",
-    "meaning": "nipa thatchPANGASINAN DICTIONARY 86"
+    "meaning": "nipa thatch"
+  },
+  {
+    "word": "1papá",
+    "meaning": "pope"
+  },
+  {
+    "word": "2papá",
+    "meaning": "appeasement; to appease, calm down"
   },
   {
     "word": "papá",
@@ -526,6 +502,14 @@
   {
     "word": "papÉl",
     "meaning": "paper"
+  },
+  {
+    "word": "1pára",
+    "meaning": "for (the benefit of)"
+  },
+  {
+    "word": "2pára",
+    "meaning": "like, the same; be the same (man -)"
   },
   {
     "word": "kapára",
@@ -553,19 +537,15 @@
   },
   {
     "word": "kaparÉja",
-    "meaning": "(f.),"
+    "meaning": "(f.), partner"
   },
   {
     "word": "kaparÉjo",
-    "meaning": "(m.)partner"
+    "meaning": "(m.) partner"
   },
   {
     "word": "parÉs",
-    "meaning": "pairs of sponsors at wedding, baptism, etc. Each pair is composed of a man and a woman, who thereby attain the"
-  },
-  {
-    "word": "relationship",
-    "meaning": "of compadre and comadre respectively to the parents of the child or couple involved."
+    "meaning": "pairs of sponsors at wedding, baptism, etc. Each pair is composed of a man and a woman, who thereby attain the relationship of compadre and comadre respectively to the parents of the child or couple involved."
   },
   {
     "word": "pári",
@@ -628,12 +608,12 @@
     "meaning": "something (usu. food) with which"
   },
   {
-    "word": "PaskóChristmas",
-    "meaning": "Day Domíngo de"
+    "word": "ágew na Paskó",
+    "meaning": "Christmas Day"
   },
   {
-    "word": "PáskoEaster",
-    "meaning": "Sunday"
+    "word": "Domíngo de Pásko",
+    "meaning": "Easter Sunday"
   },
   {
     "word": "páslek",
@@ -642,6 +622,14 @@
   {
     "word": "pasnók",
     "meaning": "anger; get angry (man -)"
+  },
+  {
+    "word": "1pasó",
+    "meaning": "cylindrical earthen jar"
+  },
+    {
+    "word": "2pasó",
+    "meaning": "passing, departing"
   },
   {
     "word": "pások",
@@ -664,8 +652,16 @@
     "meaning": "force; act violently (man -)"
   },
   {
-    "word": "3p",
-    "meaning": "átaa tree the wood of which is light and good"
+    "word": "1páta",
+    "meaning": "to crush"
+  },
+  {
+    "word": "2páta",
+    "meaning": "to drop down from above"
+  },
+  {
+    "word": "3páta",
+    "meaning": "a tree the wood of which is light and good"
   },
   {
     "word": "paták",
@@ -677,7 +673,15 @@
   },
   {
     "word": "patánir",
-    "meaning": "to depart, take one’s leave (man -) 1patáñgfrog"
+    "meaning": "to depart, take one’s leave (man -)"
+  },
+  {
+    "word": "1patáñg",
+    "meaning": "frog"
+  },
+    {
+    "word": "2patáñg",
+    "meaning": "to consult"
   },
   {
     "word": "patátas",
@@ -689,15 +693,15 @@
   },
   {
     "word": "patáy",
-    "meaning": "to put ash or earth on fish so they will not"
-  },
-  {
-    "word": "be",
-    "meaning": "slippery (i.e. so they can be held firmly when cleaning etc.); to clean intestines thoroughly"
+    "meaning": "to put ash or earth on fish so they will not be slippery (i.e. so they can be held firmly when cleaning etc.); to clean intestines thoroughly ("
   },
   {
     "word": "pateñgél",
     "meaning": "to be close to (on -)"
+  },
+  {
+    "word": "patéy",
+    "meaning": "to die (on-); to kill (-en); to butcher (maN-); death"
   },
   {
     "word": "páti",
@@ -717,7 +721,7 @@
   },
   {
     "word": "pátir",
-    "meaning": "to trip someone upPANGASINAN DICTIONARY 88"
+    "meaning": "to trip someone up"
   },
   {
     "word": "patít",
@@ -725,11 +729,7 @@
   },
   {
     "word": "pátnag",
-    "meaning": "to distinguish clearly, recognize (-an );"
-  },
-  {
-    "word": "appear",
-    "meaning": "clearly (on -)"
+    "meaning": "to distinguish clearly, recognize (-an ); appear clearn (on -)"
   },
   {
     "word": "páto",
@@ -741,15 +741,7 @@
   },
   {
     "word": "pátoñg",
-    "meaning": "an extra piece or amount added to"
-  },
-  {
-    "word": "something",
-    "meaning": "bought (as a bonus); small"
-  },
-  {
-    "word": "increase",
-    "meaning": "in price"
+    "meaning": "an extra piece or amount added to something bought (as a bonus); small increase in price"
   },
   {
     "word": "patótot",
@@ -761,11 +753,7 @@
   },
   {
     "word": "patrón",
-    "meaning": "patron (esp. patron saint of town etc. or"
-  },
-  {
-    "word": "wealthy",
-    "meaning": "or influential benefactor)"
+    "meaning": "patron (esp. patron saint of town etc. or wealthy or influential benefactor)"
   },
   {
     "word": "pawáy",
@@ -777,7 +765,7 @@
   },
   {
     "word": "pawíl",
-    "meaning": "to return, come back (on -); to return"
+    "meaning": "to return, come back (on -); to return something (mañgi-)"
   },
   {
     "word": "pawít",
@@ -841,11 +829,7 @@
   },
   {
     "word": "pegléy",
-    "meaning": "middle; be at the middle (on -); serve as"
-  },
-  {
-    "word": "mediator",
-    "meaning": "or catalyst (maN -)"
+    "meaning": "middle; be at the middle (on -); serve as as mediator or catalyst (maN -)"
   },
   {
     "word": "kapegleyán",
@@ -861,15 +845,19 @@
   },
   {
     "word": "pelág",
-    "meaning": "to fall (on -); deposit (e.g. money in the bank) (man -); to drop, cast down (mañgi -);"
+    "meaning": "to fall (on -); deposit (e.g. money in the bank) (man -); to drop, cast down (mañgi -); to fill (i-)"
   },
   {
-    "word": "action",
-    "meaning": "or activity (translatable by ‘while’"
+    "word": "1pelés",
+    "meaning": "a point of time within that occupied by an action or activity (translatable by ‘while’ or ‘during’ in most cases)"
   },
   {
     "word": "kaplesán",
     "meaning": "high point, peak of event, career, etc. 2pelésforce, strength"
+  },
+  {
+    "word": "2pelés",
+    "meaning": "force, strength"
   },
   {
     "word": "maplés",
@@ -909,7 +897,7 @@
   },
   {
     "word": "perpér",
-    "meaning": "to fill a given measure without inflating"
+    "meaning": "to fill a given measure without inflating the contents; give full measure"
   },
   {
     "word": "pesák",
@@ -925,7 +913,15 @@
   },
   {
     "word": "pesél",
-    "meaning": "to have one’s fill (man -) naksél, napesélis/was, will be satisfied with food"
+    "meaning": "to have one’s fill (man -)"
+  },
+    {
+    "word": "naksél",
+    "meaning": "is/was, will be satisfied with food"
+  },
+  {
+    "word": "napesél",
+    "meaning": "is/was, will be satisfied with food"
   },
   {
     "word": "pespés",
@@ -945,7 +941,15 @@
   },
   {
     "word": "peték",
-    "meaning": "something straight; fair price makték, maptékstraight"
+    "meaning": "something straight; fair price"
+  },
+  {
+    "word": "makték",
+    "meaning": "straight"
+  },
+    {
+    "word": "mapték",
+    "meaning": "straight"
   },
   {
     "word": "petepét",
@@ -965,19 +969,11 @@
   },
   {
     "word": "peyéñg",
-    "meaning": "to shake the head to indicate"
-  },
-  {
-    "word": "disagreement",
-    "meaning": "or negative response"
+    "meaning": "to shake the head to indicate disagreement or negative response"
   },
   {
     "word": "piá",
-    "meaning": "confidence, trust; to have confidence in,"
-  },
-  {
-    "word": "trust",
-    "meaning": "(maN -)"
+    "meaning": "confidence, trust; to have confidence in, trust (man -)"
   },
   {
     "word": "napanpiaán",
@@ -989,7 +985,7 @@
   },
   {
     "word": "fiánza",
-    "meaning": "bail, bondPANGASINAN DICTIONARY 90"
+    "meaning": "bail, bond"
   },
   {
     "word": "piáñg",
@@ -1061,15 +1057,7 @@
   },
   {
     "word": "pilápil",
-    "meaning": "dike, levee (esp. small earth wall"
-  },
-  {
-    "word": "separating",
-    "meaning": "rice fields etc. to control"
-  },
-  {
-    "word": "amount",
-    "meaning": "of water retained in field)"
+    "meaning": "dike, levee (esp. small earth wall separating rice fields. etc to control amount of water retained in field)"
   },
   {
     "word": "pilát",
@@ -1089,11 +1077,7 @@
   },
   {
     "word": "pílit",
-    "meaning": "to be obliged, have obligations (on -); to"
-  },
-  {
-    "word": "force",
-    "meaning": "(maN -)"
+    "meaning": "to be obliged, have obligations (on -); to force (man-)"
   },
   {
     "word": "pílko",
@@ -1109,31 +1093,27 @@
   },
   {
     "word": "píno",
-    "meaning": "smooth, very fine 1pínsan—"
+    "meaning": "smooth, very fine"
+  },
+  {
+    "word": "1pínsan",
+    "meaning": "-"
   },
   {
     "word": "mamínsan",
     "meaning": "next time, another time maminpínsan,"
   },
   {
-    "word": "amínsanonce",
-    "meaning": "only 2pínsancousin"
+    "word": "amínsan",
+    "meaning": "once only"
+  },
+    {
+    "word": "2pínsan",
+    "meaning": "cousin"
   },
   {
     "word": "pinsíw",
-    "meaning": "to show respect to a relative of an"
-  },
-  {
-    "word": "ascending",
-    "meaning": "generation by touching his or"
-  },
-  {
-    "word": "her",
-    "meaning": "fingers to one’s forehead (in Filipino"
-  },
-  {
-    "word": "English",
-    "meaning": "this is known as ‘kissing’ the hand"
+    "meaning": "to show respect to a relative of an ascending generation by touching his or her fingers to one’s forehead (in Filipino English this is known as ‘kissing’ the hand of the person concerned) (man-)"
   },
   {
     "word": "pínta",
@@ -1141,11 +1121,7 @@
   },
   {
     "word": "pintás",
-    "meaning": "to observe a person’s physiognomy in"
-  },
-  {
-    "word": "order",
-    "meaning": "to deduce his qualities, fortune, etc."
+    "meaning": "to observe a person’s physiognomy in order to deduce his qualities, fortune, etc."
   },
   {
     "word": "pínto",
@@ -1157,11 +1133,7 @@
   },
   {
     "word": "piñgól",
-    "meaning": "person having only one external ear (usu."
-  },
-  {
-    "word": "through",
-    "meaning": "congenital defect)"
+    "meaning": "person having only one external ear (usu. through congenital defect)"
   },
   {
     "word": "pipí",
@@ -1181,7 +1153,15 @@
   },
   {
     "word": "piság",
-    "meaning": "to split open (e.g. a fruit), break into two pieces, divide into two (man -) 1pisáklowland"
+    "meaning": "to split open (e.g. a fruit), break into two pieces, divide into two (man -)"
+  },
+  {
+    "word": "1pisák",
+    "meaning": "lowland"
+  },
+  {
+    "word": "2pisák",
+    "meaning": "become tired from working too much"
   },
   {
     "word": "pisákpisák",
@@ -1209,7 +1189,11 @@
   },
   {
     "word": "pisít",
-    "meaning": "to break, shatter naksít, napisítis/was, will be broken"
+    "meaning": "to break, shatter"
+  },
+  {
+    "word": "naksít, napisít",
+    "meaning": "is/was, will be broken"
   },
   {
     "word": "píso",
@@ -1257,11 +1241,7 @@
   },
   {
     "word": "pitpít",
-    "meaning": "to crush, smash to pieces (man -); hammer"
-  },
-  {
-    "word": "metal",
-    "meaning": "flat"
+    "meaning": "to crush, smash to pieces (man -); hammer metal flat"
   },
   {
     "word": "piyók",
@@ -1273,15 +1253,11 @@
   },
   {
     "word": "plangána",
-    "meaning": "basin for washing clothes etc.PANGASINAN DICTIONARY 92"
+    "meaning": "basin for washing clothes etc."
   },
   {
     "word": "plaza",
-    "meaning": "large open space for recreation, meetings, etc. usu. in front of Catholic church and"
-  },
-  {
-    "word": "municipal",
-    "meaning": "buildings"
+    "meaning": "large open space for recreation, meetings, etc. usu. in front of Catholic church and municipal buildings"
   },
   {
     "word": "pláto",
@@ -1329,11 +1305,7 @@
   },
   {
     "word": "pogón",
-    "meaning": "oven (but not including electrically"
-  },
-  {
-    "word": "powered",
-    "meaning": "ovens)"
+    "meaning": "oven (but not including electrically powered ovens)"
   },
   {
     "word": "pogót",
@@ -1341,11 +1313,7 @@
   },
   {
     "word": "poká",
-    "meaning": "to disturb another’s sleep, prevent"
-  },
-  {
-    "word": "someone",
-    "meaning": "from sleeping (man -)"
+    "meaning": "to disturb another’s sleep, prevent someone from sleeping (man-)"
   },
   {
     "word": "pokél",
@@ -1365,15 +1333,7 @@
   },
   {
     "word": "polá",
-    "meaning": "reddish colored soil or pottery; also the"
-  },
-  {
-    "word": "reddish",
-    "meaning": "colored fat of crabs, or similar"
-  },
-  {
-    "word": "colored",
-    "meaning": "skin of ripening fruits"
+    "meaning": "reddish colored soil or pottery; also the reddish colored fat of crabs, or similar colored skin of ripening fruits"
   },
   {
     "word": "polaíñg",
@@ -1381,11 +1341,7 @@
   },
   {
     "word": "polák",
-    "meaning": "to erase, obliterate; apply too much"
-  },
-  {
-    "word": "powder",
-    "meaning": "to the face"
+    "meaning": "to erase, obliterate; apply too much powder to the face"
   },
   {
     "word": "poláw",
@@ -1456,20 +1412,40 @@
     "meaning": "district"
   },
   {
+    "word": "1póloñg",
+    "meaning": "to deliver a sermon (man-)"
+  },
+  {
+    "word": "2póloñg",
+    "meaning": "main street of town"
+  },
+  {
     "word": "polótan",
-    "meaning": "half cooked or uncooked intestines of animals eaten as an accompaniment for"
+    "meaning": "half cooked or uncooked intestines of animals eaten as an accompaniment for wine (not taken with rice)"
   },
   {
     "word": "pulsÉras",
     "meaning": "bangle, bracelet; to wear a bracelet (man -)"
   },
   {
-    "word": "ponás",
-    "meaning": "to wipe (man -); sponge bath kolaáy"
+    "word": "1polyán",
+    "meaning": "to watch, observe"
+  },
+    {
+    "word": "2polyán",
+    "meaning": "to abandon, leave"
   },
   {
-    "word": "punasánplace",
-    "meaning": "where towels are kept"
+    "word": "ponás",
+    "meaning": "to wipe (man -); sponge bath"
+  },
+  {
+    "word": "kolaáy",
+    "meaning": "place where towels are kept"
+  },
+  {
+    "word": "punasán",
+    "meaning": "place where towels are kept"
   },
   {
     "word": "fundación",
@@ -1501,7 +1477,11 @@
   },
   {
     "word": "ponsiá",
-    "meaning": "social gathering pónti, pontí banana"
+    "meaning": "social gathering"
+  },
+    {
+    "word": "pónti, pontí",
+    "meaning": "banana"
   },
   {
     "word": "púnto",
@@ -1525,31 +1505,27 @@
   },
   {
     "word": "poón",
-    "meaning": "offering (esp. religious); to lead the"
-  },
-  {
-    "word": "prayers",
-    "meaning": "when making an offering or on a"
-  },
-  {
-    "word": "special",
-    "meaning": "occasion (mañgi -)"
+    "meaning": "offering (esp. religious); to lead the prayers when making an offering or on a special occasion (mañgi-)"
   },
   {
     "word": "poonán",
-    "meaning": "capital, original investment; to have"
-  },
-  {
-    "word": "capital",
-    "meaning": "for investment (man -)"
+    "meaning": "capital, original investment; to have capital for investment (man-)"
   },
   {
     "word": "nipoonán",
-    "meaning": "an amount sufficient only to equal"
+    "meaning": "an amount sufficient only to equal the capital invested"
   },
   {
     "word": "póot",
     "meaning": "rebuke; feel contrite"
+  },
+  {
+    "word": "1pópo",
+    "meaning": "cut down trees"
+  },
+  {
+    "word": "2pópo",
+    "meaning": "gold or silver dust or fragments"
   },
   {
     "word": "popót",
@@ -1612,6 +1588,14 @@
     "meaning": "bet, wager; to bet (on -)"
   },
   {
+    "word": "1puták",
+    "meaning": "the frisking of fishes in water; bubbling of liquids"
+  },
+  {
+    "word": "2puták",
+    "meaning": "tender young leaves of cashew tree"
+  },
+  {
     "word": "potér",
     "meaning": "to cut with any sharp instrument (maN -, man-)"
   },
@@ -1672,12 +1656,8 @@
     "meaning": "primary, elementary (school, grade, etc.)"
   },
   {
-    "word": "primÉra",
-    "meaning": "(f.),"
-  },
-  {
-    "word": "primÉro",
-    "meaning": "(m.)first"
+    "word": "primÉra (f.), primÉro (m.)",
+    "meaning": "first"
   },
   {
     "word": "princÉsa",
@@ -1717,10 +1697,10 @@
   },
   {
     "word": "ProtEstántE",
-    "meaning": "Protestant; be a member of a Protestant"
+    "meaning": "Protestant; be a member of a Protestant church (man-)"
   },
   {
     "word": "Protantísmo",
-    "meaning": "ProtestantismPANGASINAN DICTIONARY 96"
+    "meaning": "Protestantism"
   }
 ]

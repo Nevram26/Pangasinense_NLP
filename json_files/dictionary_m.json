@@ -1,15 +1,7 @@
 [
   {
     "word": "mabólo",
-    "meaning": "tree with umbrella-like growth and large"
-  },
-  {
-    "word": "fragrant",
-    "meaning": "reddish purple fruit the shape of a"
-  },
-  {
-    "word": "small",
-    "meaning": "pumpkin"
+    "meaning": "tree with umbrella-like growth and large fragrant reddish purple fruit the shape of a small pumpkin"
   },
   {
     "word": "mádrE",
@@ -89,11 +81,7 @@
   },
   {
     "word": "máliw",
-    "meaning": "become; change from one state or form to"
-  },
-  {
-    "word": "another",
-    "meaning": "(man -)"
+    "meaning": "become; change from one state or form to another (man -)"
   },
   {
     "word": "máma",
@@ -153,7 +141,7 @@
   },
   {
     "word": "eaten",
-    "meaning": "as green vegetables 72"
+    "meaning": "as green vegetables"
   },
   {
     "word": "márso",
@@ -193,7 +181,15 @@
   },
   {
     "word": "rámay",
-    "meaning": "plural of may (also irámay ) 1mayáwait, keep watch for a while 2mayá(of women) to go out together"
+    "meaning": "plural of may (also irámay )"
+  },
+  {
+    "word": "1mayá",
+    "meaning": "wait, keep watch for a while "
+  },
+    {
+    "word": "2mayá",
+    "meaning": "(of women) to go out together"
   },
   {
     "word": "mayámayá",
@@ -305,19 +301,19 @@
   },
   {
     "word": "mísa",
-    "meaning": "mass; to attend mass (mi -) mísa de"
+    "meaning": "mass; to attend mass (mi -)"
+  },
+    {
+    "word": "mísa de",
+    "meaning": "mass said at the pre-dawn cock crow"
   },
   {
     "word": "gallomass",
-    "meaning": "said at the pre-dawn cock crow (4. a.m.) on the nine days preceding Christmas"
+    "meaning": "(4. a.m.) on the nine days preceding Christmas"
   },
   {
     "word": "mísis",
-    "meaning": "wife (not used in formal speech; (occasionally) term of address for married"
-  },
-  {
-    "word": "woman",
-    "meaning": "unknown to speaker"
+    "meaning": "wife (not used in formal speech; (occasionally) term of address for married woman unknown to speaker"
   },
   {
     "word": "mísmis",
@@ -333,15 +329,15 @@
   },
   {
     "word": "-m",
-    "meaning": "form of mo when preceding stem ends"
+    "meaning": "form of mo when preceding stem ends in a vowel"
   },
   {
     "word": "muchácha",
-    "meaning": "(f.),"
+    "meaning": "(f.), servant"
   },
   {
     "word": "muchácho",
-    "meaning": "(m.)servant"
+    "meaning": "(m.) servant"
   },
   {
     "word": "mogmóg",
@@ -361,11 +357,7 @@
   },
   {
     "word": "molmól",
-    "meaning": "to keep (sweet etc.) in the mouth to dissolve;"
-  },
-  {
-    "word": "suck",
-    "meaning": "thumb or finger"
+    "meaning": "to keep (sweet etc.) in the mouth to dissolve; suck thumb or finger"
   },
   {
     "word": "múlta",
@@ -373,11 +365,7 @@
   },
   {
     "word": "mómo",
-    "meaning": "infection in the mouth making it difficult for"
-  },
-  {
-    "word": "blunt",
-    "meaning": "(of saw teeth etc.)"
+    "meaning": "infection in the mouth making it difficult for bluent (of saw teeth etc.)"
   },
   {
     "word": "múndo",
@@ -397,19 +385,11 @@
   },
   {
     "word": "mória",
-    "meaning": "to give or hand to speaker; take note of"
-  },
-  {
-    "word": "something",
-    "meaning": "near at hand"
+    "meaning": "to give or hand to speaker; take note of something near at hand"
   },
   {
     "word": "móromóro",
-    "meaning": "folk dramas centered around the conflicts between Christians and non-Christians in the"
-  },
-  {
-    "word": "early",
-    "meaning": "years of Christianization; pantomime"
+    "meaning": "folk dramas centered around the conflicts between Christians and non-Christians in the early years of Christianization; pantomime"
   },
   {
     "word": "músico",
@@ -429,6 +409,6 @@
   },
   {
     "word": "kamóyoñg",
-    "meaning": "a rival in lovePANGASINAN DICTIONARY 74"
+    "meaning": "a rival in love"
   }
 ]
