@@ -89,57 +89,21 @@ def remove_duplicates(entries):
 
 def sort_and_combine_dictionaries(json_dir="json_files", output_file="pangasinan_dictionary_combined_sorted.json"):
     """Load, combine, and sort all dictionary files."""
-    print("📖 Pangasinan Dictionary Combiner and Sorter")
-    print("=" * 50)
-    
     # Load files
     all_entries = load_all_dictionaries(json_dir)
     
     if not all_entries:
         return
     
-    print(f"\n📊 Total entries loaded: {len(all_entries)}")
-    
     # Remove duplicates
     unique_entries = remove_duplicates(all_entries)
     
     # Sort alphabetically
-    print("🔤 Sorting entries alphabetically...")
     sorted_entries = sorted(unique_entries, key=lambda entry: normalize_for_sorting(entry['word']))
     
     # Save file
-    print(f"Saving combined dictionary to '{output_file}'...")
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(sorted_entries, f, ensure_ascii=False, indent=2)
-    
-    print(f"SUCCESS: Combined dictionary created with {len(sorted_entries)} entries!")
-    
-    # Show stats
-    print(f"\nDictionary Statistics:")
-    print(f"  - Total entries: {len(sorted_entries)}")
-    print(f"  - Original entries before deduplication: {len(all_entries)}")
-    print(f"  - Duplicates removed: {len(all_entries) - len(sorted_entries)}")
-    
-    # Show sample of sorted entries
-    print(f"\nFirst 15 entries in alphabetical order:")
-    for i, entry in enumerate(sorted_entries[:15]):
-        source_info = f" [{entry.get('source', 'Unknown')}]" if 'source' in entry else ""
-        print(f"{i+1:2d}. {entry['word']} → {entry['meaning'][:50]}{'...' if len(entry['meaning']) > 50 else ''}{source_info}")
-    
-    # Show entries from different starting letters
-    print(f"\nSample entries from different letters:")
-    current_first_letter = ''
-    sample_count = 0
-    
-    for entry in sorted_entries:
-        normalized = normalize_for_sorting(entry['word'])
-        if normalized and normalized[0] != current_first_letter:
-            current_first_letter = normalized[0]
-            source_info = f" [{entry.get('source', 'Unknown')}]" if 'source' in entry else ""
-            print(f"  {entry['word']} → {entry['meaning'][:40]}{'...' if len(entry['meaning']) > 40 else ''}{source_info}")
-            sample_count += 1
-            if sample_count >= 10:  # Show first 10 different starting letters
-                break
 
 def create_individual_sorted_files(json_dir="json_files"):
     """Create sorted versions of individual dictionary files."""
