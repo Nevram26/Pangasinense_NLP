@@ -1,0 +1,25 @@
+{
+  "name": "pangasinense_nlp",
+  "version": "1.0.0",
+  "description": "A Python tool for extracting and processing Pangasinan–English dictionary entries from PDF files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server -p 8000 -c-1 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nevram26/Pangasinense_NLP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nevram26/Pangasinense_NLP/issues"
+  },
+  "homepage": "https://github.com/Nevram26/Pangasinense_NLP#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
