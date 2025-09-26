@@ -1,0 +1,58 @@
+{
+  "coverage": {
+    "total_entries": 2595,
+    "pos_known_%": 82.96724470134875,
+    "morphology_present_%": 100.0,
+    "root_present_%": 100.0
+  },
+  "consistency_checks": {
+    "unknown_with_morphology": 442,
+    "empty_process_lists": 1864
+  },
+  "root_analysis": {
+    "unique_roots": 2396,
+    "avg_words_per_root": 1.0830550918196995,
+    "top_roots": [
+      [
+        "á",
+        6
+      ],
+      [
+        "biláy",
+        4
+      ],
+      [
+        "lá",
+        4
+      ],
+      [
+        "abét",
+        3
+      ],
+      [
+        "ábig",
+        3
+      ],
+      [
+        "agá",
+        3
+      ],
+      [
+        "ín",
+        3
+      ],
+      [
+        "ó",
+        3
+      ],
+      [
+        "ámot",
+        3
+      ],
+      [
+        "dá",
+        3
+      ]
+    ]
+  }
+}
