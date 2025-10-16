@@ -2011,12 +2011,12 @@
     "word": "nálmo",
     "meaning": "found",
     "source": "Dictionary A, Dictionary A Sorted",
-    "POS": "UNKNOWN",
+    "POS": "VERB",
     "morphology": {
-      "root": "nál",
+      "root": "álmo",
       "processes": [
         {
-          "type": "suffix",
+          "type": "prefix",
           "meaning": "2sg genitive enclitic",
           "form": "-mo",
           "normalized_form": "mo"
