@@ -1,6 +1,18 @@
 [
   {
-    "word": "2y",
+    "word": "1-y",
+    "meaning": "see na"
+  },
+  {
+    "word": "2-y",
+    "meaning": "see so"
+  },
+  {
+    "word": "1ya",
+    "meaning": "this"
+  },
+  {
+    "word": "2ya",
     "meaning": "a =2a‚ q.v."
   },
   {
@@ -85,19 +97,19 @@
   },
   {
     "word": "yatyát",
-    "meaning": "width; unnecessary length or prolongation"
+    "meaning": "width; unnecessary length or prolongation of action"
   },
   {
     "word": "yegyég",
-    "meaning": "tremor, earthquake, shaking of building etc."
-  },
-  {
-    "word": "reminiscent",
-    "meaning": "of earthquake"
+    "meaning": "tremor, earthquake, shaking of building etc. reminiscent of earthquake"
   },
   {
     "word": "yÉlo",
-    "meaning": "ice 1yoyour, by you (more than one addressee) (attributive pronoun)"
+    "meaning": "ice"
+  },
+  {
+    "word": "1yo",
+    "meaning": "your, by you (more than one addressee) (attributive pronoun)"
   },
   {
     "word": "kayó",
@@ -108,8 +120,12 @@
     "meaning": "you (pl.) (independent pronoun)"
   },
   {
+    "word": "2yo",
+    "meaning": "ray (sea creature), shark"
+  },
+  {
     "word": "yogtán",
-    "meaning": "younger sibling; produce a younger sibling"
+    "meaning": "younger sibling; produce a younger sibling for one's children (man -)"
   },
   {
     "word": "kayogtanán",
@@ -117,35 +133,27 @@
   },
   {
     "word": "yogyóg",
-    "meaning": "to shake (i -) 125"
+    "meaning": "to shake (i -)"
+  },
+  {
+    "word": "1yókyok",
+    "meaning": "to bow the head in discouragement (on-)"
+  },
+  {
+    "word": "2yókyok",
+    "meaning": "to wash something by putting it in water and lifting it out again (man-)"
   },
   {
     "word": "yomáñg",
-    "meaning": "something apparently commonplace and"
+    "meaning": "something apparently commonplace and little appreciated, usu. in negative sentences where sense of negation plus more difficult, valuable or worthwhile than might appear"
   },
   {
-    "word": "little",
-    "meaning": "appreciated, usu. in negative"
-  },
-  {
-    "word": "sentences",
-    "meaning": "where sense of negation plus"
-  },
-  {
-    "word": "more",
-    "meaning": "difficult, valuable or worthwhile than"
-  },
-  {
-    "word": "might",
-    "meaning": "appear mayomáñg yomáñgcommonplace, deprecated (but see"
-  },
-  {
-    "word": "note",
-    "meaning": "above)"
+    "word": "mayomáñg, yomáñg",
+    "meaning": "commonplace, deprecated (but see note above)"
   },
   {
     "word": "yómbañg",
-    "meaning": "cured (of boils and similar skin eruptions);"
+    "meaning": "cured (of boils and similar skin eruptions); to heal, become better (of boils etc.) (on -)"
   },
   {
     "word": "yómis",
@@ -157,7 +165,7 @@
   },
   {
     "word": "yoñgyóñg",
-    "meaning": "to bend to look at what someone is writing"
+    "meaning": "to bend to look at what someone is writing or doing; to bend over as ends of branches with weight of fruit or leaves (on -)"
   },
   {
     "word": "yopót",
@@ -173,6 +181,6 @@
   },
   {
     "word": "yóyo",
-    "meaning": "yoyoPANGASINAN DICTIONARY 126"
+    "meaning": "yoyo"
   }
 ]

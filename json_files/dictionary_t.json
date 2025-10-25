@@ -1,19 +1,11 @@
 [
   {
-    "word": "1t",
-    "meaning": "awe two (topic pronoun) (includes only"
-  },
-  {
-    "word": "speaker",
-    "meaning": "and single addressee)"
+    "word": "1ta",
+    "meaning": "we two (topic pronoun) (includes only speaker and single addressee)"
   },
   {
     "word": "itá",
-    "meaning": "form of ta (topic) when"
-  },
-  {
-    "word": "preceding",
-    "meaning": "word ends in a consonant"
+    "meaning": "form of ta (topic) when preceding word ends in a consonant"
   },
   {
     "word": "sikatá",
@@ -25,10 +17,14 @@
   },
   {
     "word": "talá",
-    "meaning": "let’s go 2tabecause"
+    "meaning": "let’s go"
   },
   {
-    "word": "3t",
+    "word": "2ta",
+    "meaning": "because"
+  },
+  {
+    "word": "3ta",
     "meaning": "aparticle marking interrogative sentences"
   },
   {
@@ -73,7 +69,15 @@
   },
   {
     "word": "matabíl",
-    "meaning": "garrulous 1táblaplank, wood, wooden floor 2tábladraw, tie (in a game)"
+    "meaning": "garrulous"
+  },
+  {
+    "word": "1tábla",
+    "meaning": "plank, wood, wooden floor 2tábla"
+  },
+  {
+    "word": "2tábla",
+    "meaning": "draw, tie (in a game)"
   },
   {
     "word": "taból",
@@ -108,8 +112,12 @@
     "meaning": "middle of river; ocean, deep sea"
   },
   {
-    "word": "2t",
-    "meaning": "agátype of fishhook 114"
+    "word": "1tagá",
+    "meaning": "from (a place or point of origin)"
+  },
+  {
+    "word": "2tagá",
+    "meaning": "type of fishhook"
   },
   {
     "word": "taganó",
@@ -200,6 +208,10 @@
     "meaning": "to peep (man -) takkén‚ tatkén to grow old (on -)"
   },
   {
+    "word": "takkén‚ tatkén",
+    "meaning": "to grow old (on -)"
+  },
+  {
     "word": "matakkén",
     "meaning": "adult"
   },
@@ -258,6 +270,10 @@
   {
     "word": "talék",
     "meaning": "trust, confidence; to trust (man -)"
+  },
+  {
+    "word": "1talém",
+    "meaning": "to soak (e.g. clothes in water) (man -)"
   },
   {
     "word": "matalém",
@@ -329,11 +345,15 @@
   },
   {
     "word": "taloñgáriñg",
-    "meaning": "advantage, excellence; ambition 1talósunderstand, interpret, have an understanding of"
+    "meaning": "advantage, excellence; ambition"
   },
   {
-    "word": "destination",
-    "meaning": "(on -)"
+    "word": " 1talós",
+    "meaning": "understand, interpret, have an understanding of"
+  },
+  {
+    "word": "2talós",
+    "meaning": "destination (on -)"
   },
   {
     "word": "tálsik",
@@ -369,15 +389,19 @@
   },
   {
     "word": "tampól",
-    "meaning": "immediately, simultaneously, at the"
-  },
-  {
-    "word": "same",
-    "meaning": "time"
+    "meaning": "immediately, simultaneously, at the same time"
   },
   {
     "word": "talóran",
     "meaning": "tampól [three at once] triplets 1tanand"
+  },
+  {
+    "word": "1tan",
+    "meaning": "and"
+  },
+    {
+    "word": "2tan",
+    "meaning": "that (near hearer) (pl. rátan those)"
   },
   {
     "word": "tanáman",
@@ -409,7 +433,7 @@
   },
   {
     "word": "tánquE",
-    "meaning": "see tañgkEPANGASINAN DICTIONARY 116"
+    "meaning": "see tañgkE"
   },
   {
     "word": "tanól",
@@ -440,12 +464,16 @@
     "meaning": "thumb, big toe"
   },
   {
-    "word": "tañgér",
-    "meaning": "to nod the head, esp. in greeting or"
+    "word": "1tañgáy",
+    "meaning": "look up at (on-); stand outside a person’s house shouting insults etc.(man-)"
   },
   {
-    "word": "affirmation",
-    "meaning": "(on -)"
+    "word": "2tañgáy",
+    "meaning": "to drink from a glass; drink to (-an)"
+  },
+  {
+    "word": "tañgér",
+    "meaning": "to nod the head, esp. in greeting or affirmation (on -)"
   },
   {
     "word": "táñgkE",
@@ -454,6 +482,10 @@
   {
     "word": "tañguá",
     "meaning": "up; to look up (on -) táo —"
+  },
+    {
+    "word": "táo",
+    "meaning": "—"
   },
   {
     "word": "katáo",
@@ -537,7 +569,11 @@
   },
   {
     "word": "tári",
-    "meaning": "spur of rooster, blades added to spur"
+    "meaning": "spur of rooster, blades added to spur for cockfight"
+  },
+  {
+    "word": "taríkin",
+    "meaning": "-"
   },
   {
     "word": "mataríkin",
@@ -621,11 +657,7 @@
   },
   {
     "word": "tayegtég",
-    "meaning": "to tremble, shake in spasms (as in"
-  },
-  {
-    "word": "certain",
-    "meaning": "illnesses) (man -); trembling"
+    "meaning": "to tremble, shake in spasms (as in certain illnesses) (man -); trembling"
   },
   {
     "word": "taynán",
@@ -633,31 +665,23 @@
   },
   {
     "word": "tayó",
-    "meaning": "we, including speaker and more than"
-  },
-  {
-    "word": "one",
-    "meaning": "addressee (cf.1ta) (topic pronoun)"
+    "meaning": "we, including speaker and more than one addressee (topic pronoun)"
   },
   {
     "word": "itayó",
-    "meaning": "form of tayó (topic) when"
-  },
-  {
-    "word": "consonant",
-    "meaning": "(usu. only when following a verb)"
+    "meaning": "form of tayó (topic) when preceding word ends in a consonant (usu. only when following a verb)"
   },
   {
     "word": "sikatayó",
     "meaning": "we, us (inclusive) (independent pronoun)"
   },
   {
-    "word": "taytáy",
-    "meaning": "bridge; to bridge (maN -); cross a"
+    "word": "tayó",
+    "meaning": "(also:) by us (inclusive), our  (inclusive) (attributive pronoun)"
   },
   {
-    "word": "bridge",
-    "meaning": "(on -, man -)"
+    "word": "taytáy",
+    "meaning": "bridge; to bridge (maN -); cross a bridge (on -, man -)"
   },
   {
     "word": "tebág",
@@ -665,11 +689,7 @@
   },
   {
     "word": "teén",
-    "meaning": "to place in lines one over the other, e.g."
-  },
-  {
-    "word": "like",
-    "meaning": "bricks in a wall; to center an object"
+    "meaning": "to place in lines one over the other, e.g. like bricks in a wall; to center an object in relation to others in an arrangement"
   },
   {
     "word": "tegtég",
@@ -688,8 +708,12 @@
     "meaning": "to fly (on -) (see also tiki áb). teldán, teldón to cease, stop"
   },
   {
-    "word": "andí",
-    "meaning": "teldán non-stop, continuous"
+    "word": "teldán, teldón",
+    "meaning": "to cease, stop"
+  },
+  {
+    "word": "andí teldán",
+    "meaning": "non-stop, continuous"
   },
   {
     "word": "telegráma",
@@ -717,15 +741,19 @@
   },
   {
     "word": "tepél",
-    "meaning": "to endure (man -); patience, endurance 1tepétquestion; to ask, question (-en ) 2tepét—"
+    "meaning": "to endure (man -); patience, endurance"
+  },
+  {
+    "word": "1tepét",
+    "meaning": "question; to ask, question (-en ) 2tepét—"
+  },
+  {
+    "word": "2tepét",
+    "meaning": "—"
   },
   {
     "word": "katepét",
-    "meaning": "something cooccurring with"
-  },
-  {
-    "word": "something",
-    "meaning": "else"
+    "meaning": "something cooccurring with something else"
   },
   {
     "word": "terák",
@@ -757,15 +785,11 @@
   },
   {
     "word": "ti",
-    "meaning": "we (inclusive of speaker and hearers) (topic-pronoun—usually in greetings or"
-  },
-  {
-    "word": "polite",
-    "meaning": "exhortations)"
+    "meaning": "we (inclusive of speaker and hearers) (topic-pronoun—usually in greetings or polite exhortations)"
   },
   {
     "word": "ití",
-    "meaning": "alternative form of ti when"
+    "meaning": "alternative form of ti when preceding word ends in a vowel"
   },
   {
     "word": "tíla",
@@ -793,19 +817,11 @@
   },
   {
     "word": "tikléb",
-    "meaning": "to be upside down, lie on one’s"
-  },
-  {
-    "word": "stomach",
-    "meaning": "(on -)"
+    "meaning": "to be upside down, lie on one’s stomach (on -)"
   },
   {
     "word": "patikléb",
-    "meaning": "turn upside down, as e.g. when"
-  },
-  {
-    "word": "tipping",
-    "meaning": "jelly from a mold"
+    "meaning": "turn upside down, as e.g. when tipping jelly from a mold"
   },
   {
     "word": "tíkom",
@@ -821,11 +837,7 @@
   },
   {
     "word": "tilák",
-    "meaning": "to stay, remain behind (on -); to leave"
-  },
-  {
-    "word": "behind",
-    "meaning": "(mañgi -)"
+    "meaning": "to stay, remain behind (on -); to leave behind (mañgi -)"
   },
   {
     "word": "timbá",
@@ -849,19 +861,15 @@
   },
   {
     "word": "timplá",
-    "meaning": "to season food, mix ingredients, test"
-  },
-  {
-    "word": "what",
-    "meaning": "one has mixed or seasoned by"
-  },
-  {
-    "word": "tasting",
-    "meaning": "(man -)"
+    "meaning": "to season food, mix ingredients, test what one has mixed or seasoned by tasting (man -)"
   },
   {
     "word": "tinapá",
     "meaning": "smoked fish"
+  },
+  {
+    "word": "tinápay",
+    "meaning": "bread [from tápay, q.v.]"
   },
   {
     "word": "tindáan",
@@ -905,11 +913,7 @@
   },
   {
     "word": "típon",
-    "meaning": "assembly, gathering; savings; to collect,"
-  },
-  {
-    "word": "gather",
-    "meaning": "up (-en )"
+    "meaning": "assembly, gathering; savings; to collect, gather up (-en )"
   },
   {
     "word": "pantitíponán",
@@ -928,12 +932,12 @@
     "meaning": "rabid, crazy"
   },
   {
-    "word": "only",
-    "meaning": "(in other environments the"
+    "word": "to",
+    "meaning": "his, her, its, by him, by her, by it(attributive pronoun)"
   },
   {
-    "word": "third",
-    "meaning": "person singular topic pronoun is simply implied in the context)"
+    "word": "-a",
+    "meaning": "he, she, it (topic pronoun) following negative particle ag- only (in other environments the third person singular topic pronoun is simply implied in the context)"
   },
   {
     "word": "sikató",
@@ -960,12 +964,24 @@
     "meaning": "to worsen (on -) 1tóboprofit, gain from transaction; to make a profit"
   },
   {
+    "word": "1tóbo",
+    "meaning": "profit, gain from transaction; to make a profit"
+  },
+  {
+    "word": "2túbo",
+    "meaning": "water pipe"
+  },
+  {
     "word": "tobó",
     "meaning": "growth; to sprout, grow, increase (on -)"
   },
   {
-    "word": "serve",
-    "meaning": "as a container for carrying water etc."
+    "word": "1tobóñg",
+    "meaning": "to enter (e.g. a show) (on-); put something inside something else (i-)"
+  },
+  {
+    "word": "2tobóñg",
+    "meaning": "a length of bamboo hollowed out to serve as a container for carrying water etc."
   },
   {
     "word": "todyó",
@@ -981,11 +997,7 @@
   },
   {
     "word": "toglép",
-    "meaning": "be overcome with sleep, shut one’s"
-  },
-  {
-    "word": "eyes",
-    "meaning": "without meaning to because of weariness"
+    "meaning": "be overcome with sleep, shut one’s eyes without meaning to because of weariness"
   },
   {
     "word": "tógtog",
@@ -997,15 +1009,7 @@
   },
   {
     "word": "tokdól",
-    "meaning": "donation, contribution toward the expenses, entertainment or food"
-  },
-  {
-    "word": "required",
-    "meaning": "for a social gathering; to"
-  },
-  {
-    "word": "donate",
-    "meaning": "for such a cause (maN -)"
+    "meaning": "donation, contribution toward the expenses, entertainment or food required for a social gathering; to donate for such a cause (maN -)"
   },
   {
     "word": "tóklaw",
@@ -1013,19 +1017,23 @@
   },
   {
     "word": "tokláw",
-    "meaning": "to touch the eyes with the tip of a"
-  },
-  {
-    "word": "finger",
-    "meaning": "or instrument (on -)"
+    "meaning": "to touch the eyes with the tip of a finger or instrument (i -)"
   },
   {
     "word": "tókso",
-    "meaning": "temptation 1toktóktop, summit"
+    "meaning": "temptation"
   },
   {
-    "word": "fight",
-    "meaning": "(pan -…-en )"
+    "word": "1toktók",
+    "meaning": "top, summit"
+  },
+  {
+    "word": "2toktók",
+    "meaning": "to peck (esp. of birds when feeding) (on-); to get two fighting cocks to peck at each other before releasing them for fight (pan-...-en)"
+  },
+  {
+    "word": "3toktók",
+    "meaning": "to knock (man -)"
   },
   {
     "word": "tolák",
@@ -1037,7 +1045,7 @@
   },
   {
     "word": "toló",
-    "meaning": "ahead of; be ahead of (spatially, or in"
+    "meaning": "ahead of; be ahead of (spatially, or in the sense of overpriced, i.e. the price is ‘ahead of’ the true value) (on-)"
   },
   {
     "word": "tolók",
@@ -1056,8 +1064,16 @@
     "meaning": "ally"
   },
   {
+    "word": "1tolór",
+    "meaning": "to take (mañgi-)"
+  },
+  {
     "word": "patolór",
-    "meaning": "to send (mañgi -) 2tolórfuneral; to attend a funeral (mi -)"
+    "meaning": "to send (mañgi -)"
+  },
+  {
+    "word": "2tolór",
+    "meaning": "funeral; to attend a funeral (mi -)"
   },
   {
     "word": "tolót",
@@ -1069,11 +1085,7 @@
   },
   {
     "word": "tolóy",
-    "meaning": "to be able to proceed; to go"
-  },
-  {
-    "word": "immediately",
-    "meaning": "(on -)"
+    "meaning": "to be able to proceed; to go immediately (on -)"
   },
   {
     "word": "tomá",
@@ -1081,7 +1093,15 @@
   },
   {
     "word": "tombalík",
-    "meaning": "inverted order 1tombókkey; to use a key (i.e. lock or unlock) (maN -)"
+    "meaning": "inverted order"
+  },
+  {
+    "word": "1tombókkey",
+    "meaning": "to use a key (i.e. lock or unlock) (maN -)"
+  },
+  {
+    "word": "2tombókkey",
+    "meaning": "to follow (of speech: carry on, or repeat) (on-)"
   },
   {
     "word": "tonáw",
@@ -1125,11 +1145,7 @@
   },
   {
     "word": "tongtóng",
-    "meaning": "story, tale, conversation; to converse,"
-  },
-  {
-    "word": "talk",
-    "meaning": "with (man -)"
+    "meaning": "story, tale, conversation; to converse, talk with (man -)"
   },
   {
     "word": "tongtongán",
@@ -1137,11 +1153,11 @@
   },
   {
     "word": "toó",
-    "meaning": "person, man (pl. totóo )PANGASINAN DICTIONARY 122"
+    "meaning": "person, man (pl. totóo )"
   },
   {
     "word": "toón",
-    "meaning": "to put on or over something, pass or fly over, etc. (on -); to put (pot) on (stove)"
+    "meaning": "to put on or over something, pass or fly over, etc. (on -); to put (pot) on (stove) too cook (mañgi -)"
   },
   {
     "word": "tóor",
@@ -1185,7 +1201,7 @@
   },
   {
     "word": "torók",
-    "meaning": "to prick, spear; to be pricked with"
+    "meaning": "to prick, spear; to be pricked with something (on -)"
   },
   {
     "word": "tórrE",
@@ -1205,11 +1221,7 @@
   },
   {
     "word": "toyó",
-    "meaning": "dried salted fish about the size of a"
-  },
-  {
-    "word": "large",
-    "meaning": "sardine"
+    "meaning": "dried salted fish about the size of a large sardine"
   },
   {
     "word": "toyóñg",
