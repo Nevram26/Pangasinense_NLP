@@ -43,6 +43,7 @@
     .toolbar{display:flex;gap:8px;align-items:center;margin-bottom:10px}
     .toolbar select,.toolbar button{background:#0c1218;border:1px solid var(--color-border);color:var(--color-text);
       padding:10px 15px;border-radius:var(--radius-pill);font-size:var(--font-size-base)}
+
     .toolbar select{min-width:160px;appearance:none;-webkit-appearance:none;-moz-appearance:none;padding-right:0;margin-right:0}
     button{cursor:pointer}
     button.primary{background:var(--color-accent);color:#0b1116;border-color:transparent;padding-left:32px;padding-right:32px;min-width:140px}
@@ -108,6 +109,14 @@
           <option value="pang">Pangasinense</option>
         </select>
         <div class="spacer"></div>
+        <label style="margin-right:8px;font-size:13px;color:var(--color-muted)">
+          <input type="checkbox" id="useMLToggle" style="margin-right:4px">
+          Use Rule-Based API
+        </label>
+        <label style="margin-right:8px;font-size:13px;color:var(--color-muted)">
+          <input type="checkbox" id="showRulesToggle" style="margin-right:4px">
+          Show Rules
+        </label>
         <button id="translate" class="primary">Translate ▶</button>
       </div>
 
@@ -147,26 +156,79 @@
 
   <script>
     /* --- State & refs --- */
-    const state={lex:{pang:{},eng:{}},dir:{from:'pang',to:'eng'}};
+    const state={lex:{pang:{},eng:{}},dir:{from:'pang',to:'eng'},useAPI:false,apiUrl:'http://localhost:8000',showRules:false};
     const $=sel=>document.querySelector(sel);
     const input=$('#input'),output=$('#output'),langFrom=$('#langFrom'),langTo=$('#langTo'),status=$('#status');
 
-    /* --- Load dictionary on start --- */
-    window.addEventListener('DOMContentLoaded',async()=>{try{
-      const res=await fetch('pangasinan_with_morphology.json',{cache:'no-store'});
-      if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-      const data=await res.json();
-      if(!Array.isArray(data)) throw new Error('Expected an array of entries.');
-      ingestArraySchema(data);
-      status.innerHTML=`<span class="ok">✓ Loaded ${Object.keys(state.lex.pang).length} entries</span>`;
-    }catch(err){
-      status.innerHTML=`<span class="err">⚠️ Failed to load <code>pangasinan_with_morphology.json</code>: ${err.message}</span>`;
-    }});
+    /* --- Check API availability and load dictionary --- */
+    window.addEventListener('DOMContentLoaded',async()=>{
+      // Load dictionary first
+      try{
+        const res=await fetch('pangasinan_with_morphology.json',{cache:'no-store'});
+        if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+        const data=await res.json();
+        if(!Array.isArray(data)) throw new Error('Expected an array of entries.');
+        ingestArraySchema(data);
+        status.innerHTML=`<span class="ok">✓ Dictionary Loaded (${Object.keys(state.lex.pang).length} entries)</span>`;
+      }catch(err){
+        status.innerHTML=`<span class="err">⚠️ Failed to load dictionary: ${err.message}</span>`;
+      }
+      
+      // Check if Rule-Based API is available
+      try{
+        const apiCheck=await fetch(`${state.apiUrl}/health`,{signal:AbortSignal.timeout(2000)});
+        if(apiCheck.ok){
+          const apiData=await apiCheck.json();
+          if(apiData.model_loaded && apiData.type==='rule_based'){
+            status.innerHTML=`<span class="ok">✓ Dictionary + Rule-Based API available</span>`;
+          }
+        }
+      }catch(e){
+        console.log('Rule-based API not available, using dictionary only');
+      }
+    });
 
     /* --- Language switching --- */
     $('#swap').addEventListener('click',()=>{const f=langFrom.value;langFrom.value=langTo.value;langTo.value=f;syncDir();translate();});
     langFrom.addEventListener('change',syncDir); langTo.addEventListener('change',syncDir);
     function syncDir(){state.dir.from=langFrom.value;state.dir.to=langTo.value;}
+    
+    /* --- Rule-Based API Toggle --- */
+    $('#useMLToggle').addEventListener('change',async(e)=>{
+      if(e.target.checked){
+        // Try to use Rule-Based API
+        try{
+          const check=await fetch(`${state.apiUrl}/health`,{signal:AbortSignal.timeout(2000)});
+          if(check.ok){
+            const apiData=await check.json();
+            if(apiData.type==='rule_based'){
+              state.useAPI=true;
+              status.innerHTML=`<span class="ok">✓ Rule-Based API Connected</span>`;
+            }else{
+              e.target.checked=false;
+              state.useAPI=false;
+              status.innerHTML=`<span class="err">⚠️ Wrong API type - Using dictionary</span>`;
+            }
+          }else{
+            e.target.checked=false;
+            state.useAPI=false;
+            status.innerHTML=`<span class="err">⚠️ API not responding - Using dictionary</span>`;
+          }
+        }catch(err){
+          e.target.checked=false;
+          state.useAPI=false;
+          status.innerHTML=`<span class="err">⚠️ API not available - Using dictionary</span>`;
+        }
+      }else{
+        state.useAPI=false;
+        status.innerHTML=`<span class="ok">✓ Using dictionary mode</span>`;
+      }
+    });
+    
+    /* --- Show Rules Toggle --- */
+    $('#showRulesToggle').addEventListener('change',(e)=>{
+      state.showRules=e.target.checked;
+    });
 
     /* --- Normalization helpers --- */
     // Unicode-aware tokenizer: words, punctuation, spaces
@@ -193,13 +255,66 @@
       }
     }
 
-    /* --- Translate (auto-show details) --- */
-    function translate(){
+    /* --- Translate using API or fallback to dictionary --- */
+    async function translate(){
+      const text=input.value.trim();
+      if(!text) return;
+
+      // Use Rule-Based API if enabled and translating from Pangasinan
+      if(state.useAPI && state.dir.from==='pang'){
+        try{
+          output.innerHTML='<span class="muted">Translating with rule-based engine...</span>';
+          
+          const res=await fetch(`${state.apiUrl}/translate`,{
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body:JSON.stringify({text:text,show_rules:state.showRules})
+          });
+          
+          if(res.ok){
+            const data=await res.json();
+            output.innerHTML=`<span class="word">${escapeHtml(data.translation)}</span>`;
+            
+            // Show translation info with rule details
+            $('#dw').textContent=data.translation;
+            $('#phon').textContent='Rule-Based Translation';
+            $('#pos').textContent='Linguistic Rules';
+            $('#defs').textContent=`Original: ${data.original}`;
+            
+            let morphHtml='<dt>Method</dt><dd>Rule-Based (Morphological Analysis + Dictionary)</dd>';
+            if(data.word_by_word){
+              morphHtml+=`<dt>Word-by-Word</dt><dd style="font-size:12px">${escapeHtml(data.word_by_word)}</dd>`;
+            }
+            if(data.rules_applied && data.rules_applied.length>0){
+              morphHtml+=`<dt>Rules Applied</dt><dd>${data.rules_applied.map(r=>`<span class="pill">${r}</span>`).join(' ')}</dd>`;
+            }
+            $('#morph').innerHTML=morphHtml;
+            $('#examples').innerHTML='';
+            
+            $('#tokCount').textContent='Rule-Based Mode';
+            $('#knownCount').textContent=`Applied ${data.rules_applied?data.rules_applied.length:0} rules`;
+            $('#unknownCount').textContent='';
+            return;
+          }
+        }catch(e){
+          console.log('API error, falling back to dictionary:',e);
+          $('#useMLToggle').checked=false;
+          state.useAPI=false;
+          status.innerHTML=`<span class="err">⚠️ API Error - Using dictionary fallback</span>`;
+        }
+      }
+
+      // Fallback to dictionary mode
+      translateWithDictionary();
+    }
+
+    /* --- Dictionary-based translation (original method) --- */
+    function translateWithDictionary(){
       const tokens=tokenize(input.value);
       $('#tokCount').textContent=`${tokens.filter(t=>/\S/.test(t)).length} tokens`;
 
       const pieces=[]; let known=0,unknown=0;
-      let firstKnownEntry=null, firstKnownRaw=null; // capture first recognized token
+      let firstKnownEntry=null, firstKnownRaw=null;
 
       for(const t of tokens){
         if(/[\p{L}\p{N}]/u.test(t)){
@@ -221,7 +336,6 @@
       output.innerHTML=pieces.join('');
       output.querySelectorAll('.word').forEach(el=>el.addEventListener('click',()=>showDetails(lookup(el.dataset.src),el.dataset.src)));
 
-      // Auto-open first recognized token so POS/root/processes show without clicking
       if(firstKnownEntry){ showDetails(firstKnownEntry, firstKnownRaw); }
       else { showDetails(null,''); }
     }
