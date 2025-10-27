@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pangasinense ↔ English Lexicon Tester</title>
+  <style>
+    /* Vars */
+    :root {
+      --color-bg:#0f141a; --color-bg-alt:#0b1116; --color-card:#121a23; --color-muted:#6b7a8c; --color-text:#e8eef6;
+      --color-accent:#94d2bd; --color-border:#1f2a36; --color-ok:#8be9b5; --color-err:#ffb4a8; --color-pill:#ffbc57;
+      --color-unknown-bg:rgba(255,188,87,.2);
+      --shadow-main:0 10px 30px rgba(0,0,0,.35);
+      --font-size-base:16px; --font-size-small:13px; --font-size-h1:20px; --font-size-pill:12px;
+      --pad-main:16px; --pad-card:16px; --pad-banner:10px 14px; --radius-main:16px; --radius-card:12px; --radius-pill:999px;
+      --height-textarea:280px;
+    }
+
+    /* Base */
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(120deg,var(--color-bg-alt),var(--color-bg) 40%,var(--color-bg-alt));color:var(--color-text);
+      font-size:var(--font-size-base)}
+    .container{max-width:1100px;margin:24px auto;padding:0 16px}
+
+    /* Header */
+    header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+    header h1{font-size:var(--font-size-h1);margin:0;font-weight:700}
+    .sub{color:var(--color-muted);font-size:var(--font-size-small)}
+
+    /* Status */
+    #status{margin-bottom:16px;padding:var(--pad-banner);border:1px solid var(--color-border);border-radius:var(--radius-main);
+      background:var(--color-card);color:var(--color-text);font-size:var(--font-size-small);display:flex;justify-content:space-between;align-items:center}
+    #status .ok{color:var(--color-ok)}
+    #status .err{color:var(--color-err)}
+
+    /* Card */
+    .card{background:var(--color-card);border:1px solid var(--color-border);border-radius:var(--radius-main);box-shadow:var(--shadow-main);margin-bottom:16px}
+    .pad{padding:var(--pad-card)}
+
+    /* Toolbar */
+    .toolbar{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+    .toolbar select,.toolbar button{background:#0c1218;border:1px solid var(--color-border);color:var(--color-text);
+      padding:10px 15px;border-radius:var(--radius-pill);font-size:var(--font-size-base)}
+    .toolbar select{min-width:160px;appearance:none;-webkit-appearance:none;-moz-appearance:none;padding-right:0;margin-right:0}
+    button{cursor:pointer}
+    button.primary{background:var(--color-accent);color:#0b1116;border-color:transparent;padding-left:32px;padding-right:32px;min-width:140px}
+
+    /* IO */
+    textarea{width:100%;height:var(--height-textarea);background:transparent;border:0;color:var(--color-text);resize:vertical;
+      font:var(--font-size-base)/1.5 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}
+    .output{min-height:var(--height-textarea);white-space:pre-wrap}
+
+    /* Text helpers */
+    .muted{color:var(--color-muted)}
+    .ok{color:var(--color-ok)} .err{color:var(--color-err)}
+
+    /* Details */
+    .details h2{margin:.2rem 0}
+    #dw{font-weight:700;font-size:var(--font-size-h1)}
+    #pos{margin:8px 0;padding:4px 8px;border-radius:var(--radius-pill);background:var(--color-muted);color:var(--color-card);font-size:var(--font-size-small)}
+    #defs{margin:4px 0 8px 0}
+    .morph{margin-top:6px}
+    .morph dt{font-weight:600}
+    .morph dd{margin:2px 0 8px 0}
+
+    /* Banner */
+    .banner{margin:8px 0;padding:var(--pad-banner);border:1px solid var(--color-border);border-radius:var(--radius-main);
+      background:#0c1218;color:var(--color-muted);font-size:var(--font-size-small)}
+
+    /* Pills */
+    .pill{display:inline-block;border:1px solid var(--color-border);padding:2px 8px;border-radius:var(--radius-pill);font-size:var(--font-size-pill);
+      color:var(--color-muted);margin-right:6px}
+
+    /* Examples */
+    .examples li{margin:6px 0}
+
+    /* Flex utils */
+    .flex{display:flex;gap:8px;flex-wrap:wrap}
+    .spacer{flex:1}
+
+    /* Grid */
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:0}
+    @media (max-width:800px){.row{grid-template-columns:1fr;gap:12px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v3H4zM4 10h10v3H4zM4 16h16v3H4z" fill="currentColor"/></svg>
+      <h1>Pangasinense ↔ English Lexicon Tester</h1>
+      <span class="sub"> by TEAM AMALZEN</span>
+    </header>
+
+    <div id="status" class="banner">Loading dictionary…</div>
+
+    <div class="card pad">
+      <div class="toolbar">
+        <label class="small muted">Languages</label>
+        <select id="langFrom">
+          <option value="pang">Pangasinense</option>
+          <option value="eng">English</option>
+        </select>
+        <button id="swap" title="Swap languages">⟲</button>
+        <select id="langTo">
+          <option value="eng">English</option>
+          <option value="pang">Pangasinense</option>
+        </select>
+        <div class="spacer"></div>
+        <button id="translate" class="primary">Translate ▶</button>
+      </div>
+
+      <div class="row">
+        <div class="card pad" style="border-radius:12px;">
+          <div class="muted small" style="margin-bottom:6px">Enter text</div>
+          <textarea id="input" placeholder="Enter Pangasinense or English, then click Translate"></textarea>
+          <div class="foot">
+            <div class="flex">
+              <span class="pill" id="tokCount">0 tokens</span>
+              <span class="pill" id="knownCount">0 known</span>
+              <span class="pill" id="unknownCount">0 unknown</span>
+            </div>
+          </div>
+        </div>
+        <div class="card pad" style="border-radius:12px;">
+          <div class="muted small" style="margin-bottom:6px">Translation</div>
+          <div id="output" class="output muted">Translation will appear here…</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card pad" style="margin-top:16px">
+      <div class="details">
+        <div class="flex" style="align-items:center;gap:10px">
+          <h2 id="dw">Translated word</h2>
+          <button id="speak" title="Speak">🔊</button>
+        </div>
+        <div class="muted" id="phon">&nbsp;</div>
+        <div id="pos" class="pill" style="margin:8px 0">POS</div>
+        <div id="defs" class="muted" style="margin:4px 0 8px 0">Definition will appear here.</div>
+        <dl id="morph" class="morph"></dl>
+        <ul id="examples" class="examples"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* --- State & refs --- */
+    const state={lex:{pang:{},eng:{}},dir:{from:'pang',to:'eng'}};
+    const $=sel=>document.querySelector(sel);
+    const input=$('#input'),output=$('#output'),langFrom=$('#langFrom'),langTo=$('#langTo'),status=$('#status');
+
+    /* --- Load dictionary on start --- */
+    window.addEventListener('DOMContentLoaded',async()=>{try{
+      const res=await fetch('pangasinan_with_morphology.json',{cache:'no-store'});
+      if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+      const data=await res.json();
+      if(!Array.isArray(data)) throw new Error('Expected an array of entries.');
+      ingestArraySchema(data);
+      status.innerHTML=`<span class="ok">✓ Loaded ${Object.keys(state.lex.pang).length} entries</span>`;
+    }catch(err){
+      status.innerHTML=`<span class="err">Failed to load <code>pangasinan_with_morphology.json</code>: ${err.message}</span>`;
+    }});
+
+    /* --- Language switching --- */
+    $('#swap').addEventListener('click',()=>{const f=langFrom.value;langFrom.value=langTo.value;langTo.value=f;syncDir();translate();});
+    langFrom.addEventListener('change',syncDir); langTo.addEventListener('change',syncDir);
+    function syncDir(){state.dir.from=langFrom.value;state.dir.to=langTo.value;}
+
+    /* --- Normalization helpers --- */
+    // Unicode-aware tokenizer: words, punctuation, spaces
+    const tokenize=t=>t.match(/[\p{L}\p{N}]+|[^\p{L}\p{N}\s]+|\s+/gu)||[];
+    const NFC=s=>(s||'').normalize('NFC');
+    const stripDiacritics=s=>NFC(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+    const normalize=s=>stripDiacritics(NFC(s).toLowerCase().trim());
+    const noHyphen=s=>s.replace(/[-–—]/g,'');
+
+    /* --- Lookup with fallbacks --- */
+    function lookup(word){
+      const dir=state.dir.from;
+      const keyRaw=NFC(word), keyNorm=normalize(keyRaw), keyNoHyphen=noHyphen(keyNorm);
+      if(dir==='pang'){
+        const hit=state.lex.pang[keyRaw]||state.lex.pang[keyNorm]||state.lex.pang[keyNoHyphen];
+        if(!hit) return null;
+        return {src:word,dst:hit.en,pos:hit.pos,def:hit.def,phon:hit.phon,morph:hit.morph,examples:hit.examples||[]};
+      }else{
+        const phrase=state.lex.eng.phrase[keyRaw]||state.lex.eng.phrase[keyNorm];
+        const wordHit=state.lex.eng.word[keyNorm];
+        const hit=phrase||wordHit;
+        if(!hit) return null;
+        return {src:word,dst:hit.pang,pos:hit.pos,def:hit.def,phon:hit.phon,morph:hit.morph,examples:hit.examples||[]};
+      }
+    }
+
+    /* --- Translate (auto-show details) --- */
+    function translate(){
+      const tokens=tokenize(input.value);
+      $('#tokCount').textContent=`${tokens.filter(t=>/\S/.test(t)).length} tokens`;
+
+      const pieces=[]; let known=0,unknown=0;
+      let firstKnownEntry=null, firstKnownRaw=null; // capture first recognized token
+
+      for(const t of tokens){
+        if(/[\p{L}\p{N}]/u.test(t)){
+          const v=lookup(t);
+          if(v&&v.dst){
+            known++;
+            const dataSrc=(state.dir.from==='pang')?t:v.dst;
+            pieces.push(`<span class="word" data-src="${escapeHtml(dataSrc)}">${escapeHtml(v.dst)}</span>`);
+            if(!firstKnownEntry){ firstKnownEntry=v; firstKnownRaw=dataSrc; }
+          }else{
+            unknown++; pieces.push(`<span class="hl-unknown word" data-src="${t}" title="No entry">${escapeHtml(t)}</span>`);
+          }
+        }else{
+          pieces.push(t);
+        }
+      }
+
+      $('#knownCount').textContent=`${known} known`; $('#unknownCount').textContent=`${unknown} unknown`;
+      output.innerHTML=pieces.join('');
+      output.querySelectorAll('.word').forEach(el=>el.addEventListener('click',()=>showDetails(lookup(el.dataset.src),el.dataset.src)));
+
+      // Auto-open first recognized token so POS/root/processes show without clicking
+      if(firstKnownEntry){ showDetails(firstKnownEntry, firstKnownRaw); }
+      else { showDetails(null,''); }
+    }
+    $('#translate').addEventListener('click',translate);
+    input.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key==='Enter')translate();});
+
+    // Optional: live preview while typing (auto-fills POS/root/processes)
+    function previewDetailsFromInput(){
+      const tokens=tokenize(input.value);
+      for(const t of tokens){
+        if(/[\p{L}\p{N}]/u.test(t)){
+          const v=lookup(t);
+          if(v&&v.dst){ showDetails(v,t); return; }
+        }
+      }
+      showDetails(null,'');
+    }
+    input.addEventListener('input', previewDetailsFromInput);
+
+    /* --- Utilities --- */
+    function escapeHtml(s){return (s||'').replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;","&gt;":"&gt;","\"":"&quot;"}[c]));}
+
+    /* --- Details panel --- */
+    function showDetails(v,raw){
+      if(!v){
+        $('#dw').textContent=raw||'No entry';
+        $('#phon').textContent='';
+        $('#pos').textContent='—';
+        $('#defs').textContent='';
+        $('#morph').innerHTML='';
+        $('#examples').innerHTML='';
+        return;
+      }
+      $('#dw').textContent=v.dst||v.src||raw;
+      $('#phon').textContent=v.phon||'';
+      $('#pos').textContent=(v.pos||'').trim()||'—';
+      $('#defs').textContent=v.def||'';
+
+      const m=v.morph||{};
+      const procs=Array.isArray(m.processes)?m.processes:[];
+      const procList=procs.map(p=>`• ${p.type}${p.details?`: ${p.details}`:''}`).join('<br />');
+      $('#morph').innerHTML=(m.root||procList)?`<dt>Root</dt><dd>${m.root||'—'}</dd><dt>Processes</dt><dd>${procList||'—'}</dd>`:'';
+
+      const ex=(v.examples||[]).slice(0,4).map(e=>`<li>“${(e.pang||'').toString()}” — <span class="muted">${(e.en||'').toString()}</span></li>`).join('');
+      $('#examples').innerHTML=ex;
+    }
+
+    /* --- Build indices from JSON --- */
+    function ingestArraySchema(arr){
+      state.lex={ pang:{}, eng:{ phrase:{}, word:{} } };
+      const STOP=new Set(['be','to','the','a','an','and','or','of','is','are','am']);
+      for(const it of arr){
+        const pangFormNFC=NFC(it.word||''); if(!pangFormNFC) continue;
+        const pangKey=normalize(pangFormNFC), pangKeyNoHy=noHyphen(pangKey);
+        const gloss=String(it.meaning||'').trim(), pos=String(it.POS||it.pos||'UNKNOWN');
+        const morph=it.morphology||{}, phon=it.phon||it.phonetic||'';
+
+        const payload={en:gloss,pos,def:gloss,morph,phon};
+        state.lex.pang[pangFormNFC]=payload;
+        state.lex.pang[pangKey]=payload;
+        state.lex.pang[pangKeyNoHy]=payload;
+
+        const phrases=gloss.split(/[;,/]| or /i).map(s=>s.trim()).filter(Boolean);
+        for(const ph of phrases){
+          const kNfc=NFC(ph), kNorm=normalize(ph);
+          if(!state.lex.eng.phrase[kNfc])  state.lex.eng.phrase[kNfc] ={pang:pangFormNFC,pos,def:gloss,morph,phon};
+          if(!state.lex.eng.phrase[kNorm]) state.lex.eng.phrase[kNorm]={pang:pangFormNFC,pos,def:gloss,morph,phon};
+          for(const w of kNorm.split(/[^a-z]+/g).filter(w=>w&&!STOP.has(w))){
+            if(!state.lex.eng.word[w]) state.lex.eng.word[w]={pang:pangFormNFC,pos,def:gloss,morph,phon};
+          }
+        }
+      }
+    }
+
+    /* --- Speech --- */
+    $('#speak').addEventListener('click',()=>{const txt=$('#dw').textContent||''; if(!window.speechSynthesis) return alert('Speech not supported in this browser.');
+      const u=new SpeechSynthesisUtterance(txt); u.lang=(state.dir.to==='eng')?'en-US':'fil-PH'; window.speechSynthesis.speak(u);});
+  </script>
+</body>
+</html>
