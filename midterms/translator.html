@@ -373,7 +373,7 @@
 
       <div class="row">
         <div class="card pad" style="border-radius:12px;">
-          <div class="muted small input-label" style="margin-bottom:6px;transition:opacity 0.2s">Enter text</div>
+          <div class="muted small" style="margin-bottom:6px">Input Text</div>
           <textarea id="input" placeholder="Enter Pangasinense or English, then click Translate"></textarea>
           <div class="foot">
             <div class="flex">
@@ -580,13 +580,14 @@
       for (const it of arr) {
         const pangFormNFC = NFC(it.word || ''); if (!pangFormNFC) continue;
         const pangKey = normalize(pangFormNFC), pangKeyNoHy = noHyphen(pangKey);
+        const normalizedForm = it["normalized form"] || pangFormNFC;
 
         // Use translation for the translated text, meaning for definition
         const translation = String(it.translation || '').trim();
         const meaning = String(it.meaning || '').trim();
         const pos = String(it.POS || 'UNKNOWN');
 
-        const payload = { translation, meaning, POS: pos };
+        const payload = { translation, meaning, POS: pos, normalizedForm: normalizedForm };
         state.lex.pang[pangFormNFC] = payload;
         state.lex.pang[pangKey] = payload;
         state.lex.pang[pangKeyNoHy] = payload;
@@ -595,10 +596,10 @@
         const phrases = translation.split(/[;,/]| or /i).map(s => s.trim()).filter(Boolean);
         for (const ph of phrases) {
           const kNfc = NFC(ph), kNorm = normalize(ph);
-          if (!state.lex.eng.phrase[kNfc]) state.lex.eng.phrase[kNfc] = { pang: pangFormNFC, POS: pos, meaning };
-          if (!state.lex.eng.phrase[kNorm]) state.lex.eng.phrase[kNorm] = { pang: pangFormNFC, POS: pos, meaning };
+          if (!state.lex.eng.phrase[kNfc]) state.lex.eng.phrase[kNfc] = { pang: normalizedForm, POS: pos, meaning };
+          if (!state.lex.eng.phrase[kNorm]) state.lex.eng.phrase[kNorm] = { pang: normalizedForm, POS: pos, meaning };
           for (const w of kNorm.split(/[^a-z]+/g).filter(w => w && !STOP.has(w))) {
-            if (!state.lex.eng.word[w]) state.lex.eng.word[w] = { pang: pangFormNFC, POS: pos, meaning };
+            if (!state.lex.eng.word[w]) state.lex.eng.word[w] = { pang: normalizedForm, POS: pos, meaning };
           }
         }
       }
